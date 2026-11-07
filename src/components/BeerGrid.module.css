@@ -1,0 +1,14 @@
+.grade { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px 30px; }
+.item { display: block; text-align: center; position: relative; }
+.foto { display: block; position: relative; width: 72%; margin: 0 auto; }
+.prod { width: 100%; transition: transform .25s ease; }
+.item:hover .prod { transform: translateY(-8px); }
+.selo { position: absolute; top: 2%; left: -16%; width: 30%; z-index: 2; }
+.item h3 { font-size: 22px; font-weight: 800; text-transform: uppercase; color: var(--white); margin: 16px 0 4px; line-height: 1.15; }
+.vol { display: block; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: .18em; color: var(--gold); }
+@media (max-width: 1024px) { .grade { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) {
+  .grade { grid-template-columns: 1fr; }
+  .item h3 { font-size: 19px; }
+  .foto { width: 64%; }
+}

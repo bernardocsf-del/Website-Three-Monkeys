@@ -1,0 +1,35 @@
+.product { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; padding-top: 10px; padding-bottom: 40px; }
+.gallery { display: grid; gap: 30px; align-content: start; }
+.gallery figure { margin: 0; position: relative; }
+.gallery figure > img:first-child { width: 100%; max-width: 520px; margin: 0 auto; }
+.seal { position: absolute; left: 0; top: 4px; width: 90px; }
+.badge {
+  position: absolute; right: 8%; top: 4px; width: 56px; height: 56px; border-radius: 50%;
+  background: var(--gold-strong); color: var(--white); font-weight: 700; display: flex; align-items: center; justify-content: center;
+}
+.summary { position: sticky; top: 20px; align-self: start; color: #d8d8d8; }
+.summary h1 { margin: 0 0 18px; }
+.nome { display: block; font-size: 32px; font-weight: 800; text-transform: uppercase; line-height: 1.1; }
+.formato { display: block; margin-top: 6px; color: var(--gold); font-size: 12px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; }
+.price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; color: var(--gold); font-size: 24px; font-weight: 600; margin-bottom: 10px; }
+.price del { color: var(--gold-strong); font-size: 22px; font-weight: 400; }
+.unit { flex-basis: 100%; font-size: 15px; color: var(--gold); }
+.validity { font-size: 13px; color: var(--white); }
+.short { font-size: 15px; line-height: 1.7; color: #d8d8d8; }
+.short strong { color: var(--white); }
+.stock { display: flex; align-items: center; gap: 6px; color: var(--white); font-weight: 600; margin: 18px 0 12px; }
+.stock svg { color: #7fbf6a; }
+.out { color: var(--gold); font-style: italic; font-weight: 700; font-size: 16px; }
+.delivery { border: 1px solid var(--line); padding: 12px 16px; font-size: 14px; color: #d8d8d8; }
+.delivery strong { color: var(--white); }
+.meta { display: grid; grid-template-columns: auto 1fr; gap: 6px 10px; margin: 30px 0 0; font-size: 14px; }
+.meta dt { color: var(--muted); }
+.meta dd { margin: 0; color: #c9c9c9; }
+.desc { max-width: 900px; }
+.relTitle { margin-bottom: 40px; }
+@media (max-width: 900px) {
+  .product { grid-template-columns: 1fr; gap: 30px; }
+  .summary { position: static; }
+  .gallery figure > img:first-child { max-width: 380px; }
+  .nome { font-size: 26px; }
+}

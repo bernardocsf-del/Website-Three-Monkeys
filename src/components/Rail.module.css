@@ -1,0 +1,23 @@
+.wrap { position: relative; }
+.products { grid-auto-columns: calc((100% - 4 * 20px) / 5); padding-left: 15px; padding-right: 15px; scroll-padding: 0 15px; }
+.cards { grid-auto-columns: calc((100% - 2 * 20px) / 3); }
+.beers { grid-auto-columns: calc((100% - 60px) / 3); gap: 30px; }
+.wide { grid-auto-columns: calc((100% - 4 * 20px) / 4.5); }
+.arrow {
+  position: absolute; top: 35%; width: 44px; height: 44px; border-radius: 50%; border: 0; cursor: pointer;
+  background: rgba(0, 0, 0, .55); color: var(--white); display: flex; align-items: center; justify-content: center;
+}
+.arrow:hover { background: var(--gold); }
+.prev { left: 8px; }
+.next { right: 8px; }
+@media (max-width: 1024px) {
+  .products { grid-auto-columns: calc((100% - 2 * 20px) / 3); }
+  .beers { grid-auto-columns: calc((100% - 30px) / 2); }
+}
+@media (max-width: 767px) {
+  .products { grid-auto-columns: 62%; }
+  .cards { grid-auto-columns: 75%; }
+  .beers { grid-auto-columns: 80%; }
+  .wide { grid-auto-columns: 70%; }
+  .arrow { display: none; }
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "three-monkeys-site",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
+  "services": [{ "binding": "WORKER_SELF_REFERENCE", "service": "three-monkeys-site" }],
+  "r2_buckets": [{ "binding": "NEXT_INC_CACHE_R2_BUCKET", "bucket_name": "three-monkeys-site-cache" }],
+  "d1_databases": [
+    // Criar com: npx wrangler d1 create three-monkeys-site-tags  (e colar o database_id aqui)
+    { "binding": "NEXT_TAG_CACHE_D1", "database_name": "three-monkeys-site-tags", "database_id": "PREENCHER" }
+  ],
+  "vars": {
+    "WP_URL": "https://threemonkeysbeer.com",
+    "SITE_URL": "https://threemonkeysbeer.com",
+    "PUBLIC_NOINDEX": "true"
+  },
+  "observability": { "enabled": true }
+}

@@ -1,0 +1,31 @@
+.intro { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; padding-top: 10px; padding-bottom: 30px; }
+.txt { color: var(--white); font-size: 15px; line-height: 1.75; }
+.txt strong { color: var(--white); }
+.dna { font-size: clamp(30px, 3.6vw, 46px); font-weight: 300; text-align: center; margin: 0; }
+.group { padding: 40px 0 60px; }
+.groupTitle { text-align: center; color: var(--gold); font-size: 22px; font-weight: 700; text-transform: uppercase; margin-bottom: 40px; }
+
+/* Página de cada cerveja */
+.hero { padding: 0 0 50px; }
+.hero :global(.kicker) { font-size: 14px; letter-spacing: .3em; }
+.hero h1 { font-size: clamp(34px, 5vw, 54px); font-weight: 800; margin: 0 0 10px; text-transform: uppercase; }
+.meta { color: var(--gold); font-size: 16px; letter-spacing: .25em; text-transform: uppercase; margin: 0; }
+.body { background: var(--bg); padding: 60px 0; border-top: 1px solid rgba(255, 255, 255, .03); }
+.cols { display: grid; grid-template-columns: 5fr 7fr; gap: 40px; align-items: start; }
+.photo img { max-height: 760px; width: auto; margin: 0 auto; }
+.desc { color: var(--white); font-size: 15px; line-height: 1.75; }
+.specs { background: #f5f2ea; color: #333; border-left: 4px solid var(--gold); padding: 18px 22px; margin: 24px 0 28px; font-size: 14px; line-height: 2; }
+.specs p { margin: 0; }
+.specs strong { color: #222; }
+.buy { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 18px; }
+.extra { padding: 20px 0 60px; }
+.extra :global(.prose) { color: var(--text-soft); }
+.extra h2 { color: var(--white); font-size: 22px; }
+
+@media (max-width: 767px) {
+  .intro { grid-template-columns: 1fr; gap: 24px; }
+  .dna { order: -1; }
+  .cols { grid-template-columns: 1fr; }
+  .photo img { max-height: 520px; }
+  .buy :global(.btn) { flex: 1 1 100%; }
+}

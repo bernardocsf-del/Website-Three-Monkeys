@@ -1,0 +1,7 @@
+.top { padding-bottom: 30px; }
+.title { margin-bottom: 50px; }
+.narrow { max-width: 860px; }
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px 40px; }
+.grid > div { display: flex; justify-content: center; }
+.grid > div > article { width: 100%; max-width: 300px; }
+@media (max-width: 600px) { .grid { grid-template-columns: 1fr 1fr; gap: 30px 16px; } }

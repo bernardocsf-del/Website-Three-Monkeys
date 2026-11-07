@@ -1,0 +1,11 @@
+.cart { display: flex; gap: 12px; align-items: stretch; flex-wrap: wrap; margin-bottom: 20px; }
+.qty { display: flex; height: 46px; }
+.qty button, .qty input {
+  background: var(--surface); color: var(--white); border: 1px solid rgba(255, 255, 255, .3); width: 40px; text-align: center; font-size: 15px;
+}
+.qty button { cursor: pointer; }
+.qty input { width: 52px; -moz-appearance: textfield; appearance: textfield; }
+.qty input::-webkit-inner-spin-button { -webkit-appearance: none; }
+.indisp { border: 1px solid var(--gold); padding: 14px 16px; margin: 0 0 18px; color: var(--white); }
+.link { background: none; border: 0; padding: 0; color: var(--gold); text-decoration: underline; cursor: pointer; font: inherit; }
+@media (max-width: 900px) { .add { flex: 1; } }

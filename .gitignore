@@ -1,5 +1,11 @@
 node_modules/
-dist/
-.astro/
+.next/
+.open-next/
+.wrangler/
+out/
 .env
+.env*.local
+.dev.vars
+next-env.d.ts
+*.tsbuildinfo
 .DS_Store

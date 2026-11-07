@@ -1,0 +1,22 @@
+.club { background: var(--bg); padding: 70px 0; border-top: 1px solid rgba(255, 255, 255, .04); }
+.club h2 { font-size: clamp(22px, 3vw, 34px); margin: 0 0 30px; }
+.club :global(.btn) { font-size: 14px; padding: 16px 40px; }
+
+.promo { background: var(--bg); }
+.tiles { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+.tiles.single { grid-template-columns: 1fr; }
+.tile { position: relative; display: block; overflow: hidden; }
+.tile img { width: 100%; height: 100%; aspect-ratio: 1.2; object-fit: cover; transition: transform .5s; }
+.single .tile img { aspect-ratio: 1.6; }
+.tile:hover img { transform: scale(1.04); }
+.tile::after { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg, transparent 45%, rgba(0, 0, 0, .65)); }
+.body { position: absolute; left: 30px; bottom: 30px; z-index: 1; }
+.body h4 { font-size: clamp(16px, 1.8vw, 22px); text-transform: uppercase; margin-bottom: 16px; line-height: 1.3; }
+
+.ig { padding-top: 40px; }
+.feed { margin-top: 30px; min-height: 200px; }
+
+@media (max-width: 767px) {
+  .tiles { grid-template-columns: 1fr; gap: 20px; }
+  .body { left: 20px; bottom: 20px; }
+}

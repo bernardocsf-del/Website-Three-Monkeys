@@ -1,17 +1,28 @@
 {
   "name": "three-monkeys-site",
   "private": true,
-  "type": "module",
   "scripts": {
-    "sync": "node scripts/sync-wp.mjs",
-    "dev": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "tsc --noEmit",
+    "import": "node scripts/import-wp.mjs",
+    "preview": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
+    "deploy": "opennextjs-cloudflare build && opennextjs-cloudflare deploy",
+    "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts"
   },
   "dependencies": {
-    "astro": "5.18.2"
+    "@opennextjs/cloudflare": "1.20.13",
+    "next": "15.5.28",
+    "react": "19.2.9",
+    "react-dom": "19.2.9"
   },
   "devDependencies": {
-    "cheerio": "1.2.0"
+    "@types/node": "22.15.3",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "cheerio": "1.2.0",
+    "typescript": "5.9.3",
+    "wrangler": "4.151.2"
   }
 }

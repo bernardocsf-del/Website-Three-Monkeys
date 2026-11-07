@@ -1,0 +1,11 @@
+.region {
+  display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 14px;
+  border: 1px solid var(--line); background: rgba(255, 255, 255, .02); padding: 16px; margin: 0 15px 30px;
+}
+.lbl { color: var(--white); font-size: 14px; font-weight: 500; }
+.opt {
+  background: transparent; border: 1.5px solid var(--gold); color: var(--gold); cursor: pointer;
+  padding: 9px 18px; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+}
+.opt:hover, .opt.on { background: var(--gold); color: var(--bg-deep); }
+.nota { flex-basis: 100%; text-align: center; color: var(--muted); font-size: 12px; }
