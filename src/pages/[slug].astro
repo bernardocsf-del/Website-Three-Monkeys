@@ -1,0 +1,56 @@
+---
+// Páginas de primeiro nível vindas do WordPress (mesmas URLs):
+// - páginas de texto: entrega, devoluções, termos de uso, política de privacidade
+// - posts do blog: /<slug-do-post>/
+import Base from '../layouts/Base.astro';
+import paginas from '../data/paginas.json';
+import posts from '../data/posts.json';
+
+type Post = (typeof posts)[number];
+type Pagina = { title: string; html: string };
+
+export function getStaticPaths() {
+  return [
+    ...Object.entries(paginas).map(([slug, pagina]) => ({ params: { slug }, props: { pagina } })),
+    ...posts.map((post) => ({ params: { slug: post.slug }, props: { post } })),
+  ];
+}
+
+const { pagina, post } = Astro.props as { pagina?: Pagina; post?: Post };
+const date = post
+  ? new Date(post.date).toLocaleDateString('pt-BR', { day: '2-digit', month: 'long', year: 'numeric', timeZone: 'America/Sao_Paulo' })
+  : '';
+const jsonLd = post && {
+  '@context': 'https://schema.org',
+  '@type': 'BlogPosting',
+  headline: post.title,
+  datePublished: post.date,
+  dateModified: post.modified,
+  image: post.image || undefined,
+  author: { '@type': 'Organization', name: 'Three Monkeys Beer' },
+};
+---
+<Base padded image={post?.image || undefined} jsonLd={jsonLd || undefined}>
+  {pagina && (
+    <article class="container doc">
+      <h1>{pagina.title}</h1>
+      <div class="prose" set:html={pagina.html} />
+    </article>
+  )}
+  {post && (
+    <article class="container doc">
+      <p class="kicker">Blog · {date}</p>
+      <h1>{post.title}</h1>
+      {post.image && <img class="cover" src={post.image} alt="" />}
+      <div class="prose" set:html={post.html} />
+      <a class="btn btn-outline more" href="/cervejas/">Conheça nossas cervejas</a>
+    </article>
+  )}
+</Base>
+
+<style>
+  .doc { max-width: 860px; padding-top: 30px; padding-bottom: 80px; }
+  .doc h1 { font-size: clamp(26px, 3.4vw, 40px); margin-bottom: 30px; }
+  .cover { width: 100%; margin-bottom: 30px; }
+  .more { margin-top: 30px; }
+</style>

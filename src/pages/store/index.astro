@@ -1,0 +1,46 @@
+---
+import Base from '../../layouts/Base.astro';
+import ProductRail from '../../components/ProductRail.astro';
+import ProductCard from '../../components/ProductCard.astro';
+import RegionBar from '../../components/RegionBar.astro';
+import ClubCta from '../../components/ClubCta.astro';
+import PromoTiles from '../../components/PromoTiles.astro';
+import InstagramFeed from '../../components/InstagramFeed.astro';
+import { ordered, STORE_ORDER } from '../../lib/site';
+
+const top = ordered(STORE_ORDER);
+const grid = ordered([
+  'galaxy-detox', 'milky-way', 'classic-ipa-summer', 'hoppy-lager', 'paranoid-about-popcorn', 'paranoid-about-coconut',
+  'classic-ipa-350', 'classic-ipa-500', 'classic-ipa-free', 'im-fcking-sour', 'im-sour-473', 'im-sour-baby', 'golden-ale',
+]);
+---
+<Base padded>
+  <section class="top">
+    <RegionBar />
+    <ProductRail products={top} label="Cervejas à venda" />
+  </section>
+
+  <section class="section">
+    <div class="container"><h2 class="title-box">Peça a sua já</h2></div>
+    <div class="container narrow">
+      <div class="grid" role="list">
+        {grid.map((p) => <div role="listitem"><ProductCard product={p} large /></div>)}
+      </div>
+    </div>
+  </section>
+
+  <ClubCta />
+  <PromoTiles />
+  <InstagramFeed />
+</Base>
+
+<style>
+  .top { padding-bottom: 30px; }
+  .title-box { margin-bottom: 50px; }
+  .narrow { max-width: 860px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 50px 40px; }
+  .grid :global(.thumb) { max-width: 300px; margin-left: auto; margin-right: auto; }
+  .grid > div { display: flex; justify-content: center; }
+  .grid :global(.card) { width: 100%; max-width: 300px; }
+  @media (max-width: 600px) { .grid { grid-template-columns: 1fr 1fr; gap: 30px 16px; } }
+</style>

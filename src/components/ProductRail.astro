@@ -1,0 +1,40 @@
+---
+import ProductCard from './ProductCard.astro';
+import Icon from './Icon.astro';
+import type { Product } from '../lib/site';
+interface Props { products: Product[]; label?: string; }
+const { products, label = 'Produtos' } = Astro.props;
+---
+<div class="rail-wrap" data-rail>
+  <div class="rail products" role="list" aria-label={label}>
+    {products.map((p) => <div role="listitem"><ProductCard product={p} /></div>)}
+  </div>
+  <button class="arrow prev" type="button" aria-label="Anterior" data-dir="-1"><Icon name="arrow-left" size={22} /></button>
+  <button class="arrow next" type="button" aria-label="Próximo" data-dir="1"><Icon name="arrow-right" size={22} /></button>
+</div>
+
+<script>
+  document.querySelectorAll<HTMLElement>('[data-rail]').forEach((wrap) => {
+    const rail = wrap.querySelector<HTMLElement>('.rail');
+    wrap.querySelectorAll<HTMLButtonElement>('.arrow').forEach((b) =>
+      b.addEventListener('click', () => rail?.scrollBy({ left: Number(b.dataset.dir) * rail.clientWidth * 0.8, behavior: 'smooth' })),
+    );
+  });
+</script>
+
+<style>
+  .rail-wrap { position: relative; padding: 0 15px; }
+  .products { grid-auto-columns: calc((100% - 4 * 20px) / 5);  }
+  .arrow {
+    position: absolute; top: 35%; width: 44px; height: 44px; border-radius: 50%; border: 0; cursor: pointer;
+    background: rgba(0, 0, 0, .55); color: var(--white); display: flex; align-items: center; justify-content: center;
+  }
+  .arrow:hover { background: var(--gold); }
+  .prev { left: 8px; }
+  .next { right: 8px; }
+  @media (max-width: 1024px) { .products { grid-auto-columns: calc((100% - 2 * 20px) / 3); } }
+  @media (max-width: 767px) {
+    .products { grid-auto-columns: 62%; }
+    .arrow { display: none; }
+  }
+</style>

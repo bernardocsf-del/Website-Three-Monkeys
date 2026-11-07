@@ -1,0 +1,180 @@
+---
+import Base from '../../layouts/Base.astro';
+import ProductRail from '../../components/ProductRail.astro';
+import Icon from '../../components/Icon.astro';
+import { products, type Product, splitName, money, discount, sealFor, semSP, LINKS, wp } from '../../lib/site';
+
+export function getStaticPaths() {
+  return products.map((product) => ({ params: { slug: product.slug }, props: { product } }));
+}
+
+const { product: p } = Astro.props as { product: Product };
+const { name } = splitName(p.name);
+const off = discount(p);
+const seal = sealFor(p.slug);
+const isSubscription = p.type.includes('subscription');
+const blockSP = semSP.includes(p.id);
+const related = products.filter((x) => x.id !== p.id && x.categories.includes('cervejas')).slice(0, 8);
+const tags = p.tags.map((t) => t.name).join(', ');
+const desc = p.description || '';
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Product',
+  name: p.name,
+  sku: p.sku,
+  image: p.images.map((i) => i.src),
+  brand: { '@type': 'Brand', name: 'Three Monkeys Beer' },
+  offers: {
+    '@type': 'Offer',
+    priceCurrency: 'BRL',
+    price: p.price.toFixed(2),
+    availability: p.inStock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
+    url: new URL(`/produto/${p.slug}/`, Astro.site).href,
+  },
+};
+---
+<Base padded image={p.images[0]?.src} jsonLd={jsonLd}>
+  <section class="container product">
+    <div class="gallery">
+      {p.images.map((img, i) => (
+        <figure>
+          <img src={img.src} srcset={img.srcset || undefined} sizes="(max-width: 767px) 90vw, 520px" alt={img.alt} loading={i === 0 ? 'eager' : 'lazy'} width="1600" height="1969" />
+          {i === 0 && seal && <img class="seal" src={seal} alt="" aria-hidden="true" />}
+          {i === 0 && off > 0 && <span class="badge">-{off}%</span>}
+        </figure>
+      ))}
+    </div>
+
+    <div class="summary">
+      <h1><span class="nome">{name}</span>{p.format && <span class="formato">{p.format}</span>}</h1>
+
+      <p class="price">
+        {off > 0 && <del>{money(p.regularPrice)}</del>}
+        <strong>{isSubscription ? `A partir de ${money(p.price)}` : money(p.price)}</strong>
+        {p.unitPrice && <span class="unit">{p.unitPrice}</span>}
+      </p>
+      {p.validity && <p class="validity">{p.validity}</p>}
+
+      <div class="short" set:html={p.shortDescription} />
+
+      {isSubscription ? (
+        <a class="btn btn-gold btn-lg" href={wp(`/produto/${p.slug}/`)}>Escolher meu plano</a>
+      ) : p.inStock && p.purchasable ? (
+        <>
+          <p class="stock"><Icon name="check" size={16} /> {p.stockText || 'Em estoque'}</p>
+          {blockSP && (
+            <div class="indisp" data-sp-warning hidden>
+              <strong>Ainda não levamos {name} para São Paulo.</strong><br />
+              Ela está disponível para entrega no Rio de Janeiro. Se você é do Rio, <a href="#" data-set-rj>mude a região aqui</a>.
+            </div>
+          )}
+          <form class="cart" method="get" action={LINKS.cart} data-cart-form>
+            <input type="hidden" name="add-to-cart" value={p.id} />
+            <div class="qty">
+              <button type="button" data-step="-1" aria-label="Diminuir">-</button>
+              <input type="number" name="quantity" value="1" min="1" max="99" inputmode="numeric" aria-label="Quantidade" />
+              <button type="button" data-step="1" aria-label="Aumentar">+</button>
+            </div>
+            <button class="btn btn-gold" type="submit">Adicionar ao carrinho</button>
+          </form>
+        </>
+      ) : (
+        <p class="out">Volto já! Este produto está esgotado no momento.</p>
+      )}
+
+      {p.deliveryNote && <p class="delivery" set:html={p.deliveryNote} />}
+
+      <dl class="meta">
+        {p.sku && <><dt>SKU:</dt><dd>{p.sku}</dd></>}
+        <dt>Categoria:</dt><dd>{p.categories.includes('cervejas') ? 'Cervejas' : 'TMB Club'}</dd>
+        {tags && <><dt>Tags:</dt><dd>{tags}</dd></>}
+      </dl>
+    </div>
+  </section>
+
+  {desc && (
+    <section class="section">
+      <div class="container prose desc" set:html={desc} />
+    </section>
+  )}
+
+  {!isSubscription && (
+    <section class="section related">
+      <div class="container"><h2 class="title-box">Você também pode gostar</h2></div>
+      <div class="rel-rail"><ProductRail products={related} label="Produtos relacionados" /></div>
+    </section>
+  )}
+</Base>
+
+<script>
+  import { getRegion, setRegion } from '../../lib/region';
+  const form = document.querySelector<HTMLFormElement>('[data-cart-form]');
+  const qty = form?.querySelector<HTMLInputElement>('input[name="quantity"]');
+  form?.querySelectorAll<HTMLButtonElement>('[data-step]').forEach((b) =>
+    b.addEventListener('click', () => {
+      if (!qty) return;
+      qty.value = String(Math.max(1, Math.min(99, Number(qty.value || 1) + Number(b.dataset.step))));
+    }),
+  );
+  const warn = document.querySelector<HTMLElement>('[data-sp-warning]');
+  const apply = () => {
+    if (!warn || !form) return;
+    const sp = getRegion() === 'SP';
+    warn.hidden = !sp;
+    form.hidden = sp;
+  };
+  document.querySelector('[data-set-rj]')?.addEventListener('click', (e) => { e.preventDefault(); setRegion('RJ'); apply(); });
+  apply();
+</script>
+
+<style>
+  .product { display: grid; grid-template-columns: 1fr 1fr; gap: 50px; padding-top: 10px; padding-bottom: 40px; }
+  .gallery { display: grid; gap: 30px; align-content: start; }
+  .gallery figure { margin: 0; position: relative; }
+  .gallery figure > img:first-child { width: 100%; max-width: 520px; margin: 0 auto; }
+  .seal { position: absolute; left: 0; top: 4px; width: 90px; }
+  .badge {
+    position: absolute; right: 8%; top: 4px; width: 56px; height: 56px; border-radius: 50%;
+    background: var(--gold-strong); color: var(--white); font-weight: 700; display: flex; align-items: center; justify-content: center;
+  }
+  .summary { position: sticky; top: 20px; align-self: start; color: #d8d8d8; }
+  h1 { margin: 0 0 18px; }
+  .nome { display: block; font-size: 32px; font-weight: 800; text-transform: uppercase; line-height: 1.1; }
+  .formato { display: block; margin-top: 6px; color: var(--gold); font-size: 12px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; }
+  .price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; color: var(--gold); font-size: 24px; font-weight: 600; margin-bottom: 10px; }
+  .price del { color: var(--gold-strong); font-size: 22px; font-weight: 400; }
+  .unit { flex-basis: 100%; font-size: 15px; color: var(--gold); }
+  .validity { font-size: 13px; color: var(--white); }
+  .short { font-size: 15px; line-height: 1.7; color: #d8d8d8; }
+  .short :global(strong) { color: var(--white); }
+  .stock { display: flex; align-items: center; gap: 6px; color: var(--white); font-weight: 600; margin: 18px 0 12px; }
+  .stock :global(svg) { color: #7fbf6a; }
+  .cart { display: flex; gap: 12px; align-items: stretch; flex-wrap: wrap; margin-bottom: 20px; }
+  .cart[hidden] { display: none; }
+  .qty { display: flex; height: 46px; }
+  .qty button, .qty input {
+    background: var(--surface); color: var(--white); border: 1px solid rgba(255, 255, 255, .3); width: 40px; text-align: center; font-size: 15px;
+  }
+  .qty button { cursor: pointer; }
+  .qty input { width: 52px; -moz-appearance: textfield; appearance: textfield; }
+  .qty input::-webkit-inner-spin-button { -webkit-appearance: none; }
+  .indisp { border: 1px solid var(--gold); padding: 14px 16px; margin: 0 0 18px; color: var(--white); }
+  .indisp[hidden] { display: none; }
+  .indisp a { text-decoration: underline; }
+  .out { color: var(--gold); font-style: italic; font-weight: 700; font-size: 16px; }
+  .delivery { border: 1px solid var(--line); padding: 12px 16px; font-size: 14px; color: #d8d8d8; }
+  .delivery :global(strong) { color: var(--white); }
+  .meta { display: grid; grid-template-columns: auto 1fr; gap: 6px 10px; margin: 30px 0 0; font-size: 14px; }
+  .meta dt { color: var(--muted); }
+  .meta dd { margin: 0; color: #c9c9c9; }
+  .desc { max-width: 900px; }
+  .related .title-box { margin-bottom: 40px; }
+  @media (max-width: 900px) {
+    .product { grid-template-columns: 1fr; gap: 30px; }
+    .summary { position: static; }
+    .gallery figure > img:first-child { max-width: 380px; }
+    .nome { font-size: 26px; }
+    .cart .btn { flex: 1; }
+  }
+</style>

@@ -1,0 +1,101 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import ClubCta from '../components/ClubCta.astro';
+import InstagramFeed from '../components/InstagramFeed.astro';
+
+const U = 'https://threemonkeysbeer.com/wp-content/uploads';
+const premios = [
+  ['2026 - Peter, The Bitter', 'Medalha de Prata no Concurso Brasileiro de Cervejas'],
+  ['2025 - Peter, The Bitter', 'Medalha de Ouro no Brazilian International Beer Awards'],
+  ['2025 - Peter, The Bitter', 'Medalha de Prata na Brasil Beer Cup'],
+  ['2025 - I’m Sour', 'Medalha de Bronze no Brazilian International Beer Awards'],
+  ['2025 - I’m Sour', 'Melhor Cerveja do Brasil pela revista Prazeres da Mesa'],
+  ['2025 - Paranoid About Popcorn', 'Medalha de Ouro no Mondial de La Bière'],
+  ['2023 - I’m Sour', 'Medalha de Ouro no Mondial de La Bière'],
+  ['2022 - Cervejeiro do Ano', 'Veja Rio Comer & Beber'],
+  ['2021 - I’m Sour', 'Medalha de Platina no Mondial de La Bière'],
+  ['2019 - I’m Sour', 'Cerveja do Ano pela revista Prazeres da Mesa'],
+  ['2019 - Cervejaria do Ano', 'Revista Prazeres da Mesa'],
+  ['2019 - Classic IPA', 'Medalha de Bronze na Copa de Cervezas de América'],
+  ['2019 - Paranoid About Popcorn', 'Terceiro Lugar no Mondial de La Bière - Votação do Público'],
+  ['2019 - I’m Sour Baby', 'Medalha de Ouro no Mondial de La Bière'],
+  ['2018 - Melhor Cervejaria pelo Público', 'Festival de Micro Cervejarias do Pão de Açúcar'],
+  ['2018 - I’m F#cking Sour', 'Medalha de Bronze na Copa de Cervezas de América'],
+  ['2018 - I’m Sour', 'Medalha de Prata na Copa de Cervezas de América'],
+  ['2018 - I’m Sour', 'Best of Show no Festival de POA'],
+  ['2018 - I’m Sour', 'Medalha de Ouro no Festival de POA'],
+  ['2017 - I’m Sour', 'Medalha de Ouro no Festival de POA'],
+  ['2017 - Galaxy Detox', 'Medalha de Prata no IPA Day'],
+  ['2017 - Golden Ale', 'Medalha de Bronze na South Beer Cup'],
+  ['2017 - Milky Way IPA', 'Medalha de Prata no IPA Day'],
+  ['2017 - Milky Way IPA', 'Terceiro Lugar no Mondial de La Bière - Votação do Público'],
+  ['2016 - India White Ale', 'Medalha de Ouro no Mondial de La Bière'],
+];
+const half = Math.ceil(premios.length / 2);
+const fotos = ['bg-threemonkeys-sobre-premios01.jpg.webp', 'bg-threemonkeys-sobre-premios05.png.webp', 'bg-threemonkeys-sobre-premios07.png.webp'];
+---
+<Base>
+  <section class="hero" style={`background-image:url(${U}/2025/10/bg-threemonkeys-sobre9.jpg)`} aria-label="Bernardo Costa e Silva, mestre-cervejeiro da Three Monkeys"></section>
+
+  <section class="section">
+    <div class="container two">
+      <div class="txt">
+        <h1 class="lead">Uma cervejaria artesanal com DNA carioca e espírito global, criada com o propósito de quebrar barreiras!</h1>
+        <p>A <strong>Three Monkeys</strong> nasceu em 2013 do sonho de três amigos em sacudir o mercado cervejeiro brasileiro que era dominado pelas grandes marcas e nenhuma variedade.</p>
+        <p>Começou como hobby: panela no fogão, inspiração nas cervejas belgas e muito apoio da galera próxima. A qualidade surpreendeu tanto que o sonho cresceu e se tornou uma cervejaria de verdade que, até hoje, mantém o propósito de <strong>quebrar barreiras</strong>.</p>
+        <p>A tradição monástica das cervejas belgas inspirou o nome inicial mas foi a natureza vibrante da Mata Atlântica, onde as primeiras brassagens aconteciam, que definiu a identidade da marca: <strong>Three Monkeys</strong>. Uma homenagem à irreverência, à liberdade criativa e à conexão com o Rio de Janeiro, sempre com um olhar voltado para o mundo.</p>
+      </div>
+      <img src={`${U}/2025/09/bg-threemonkeys-sobre-img.png.webp`} alt="Latas da Three Monkeys Beer no gelo" loading="lazy" />
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two">
+      <h2 class="statement">Somos uma cervejaria independente com DNA carioca, espírito global e um compromisso: quebrar barreiras sempre.</h2>
+      <p class="txt">E foi nesse caminho que o mestre-cervejeiro Bernardo Costa e Silva sempre seguiu firme. Assim ele criou mais de 100 rótulos altamente criativos e colocou a <strong>Three Monkeys</strong> em mais de mil pontos de venda pelo Brasil com enorme sucesso. Essa trajetória rendeu a ele o título de mestre-cervejeiro do ano pela Veja Rio.</p>
+    </div>
+  </section>
+
+  <section class="section premios">
+    <div class="container">
+      <h2>Prêmios</h2>
+      <div class="lists">
+        {[premios.slice(0, half), premios.slice(half)].map((col) => (
+          <ul>
+            {col.map(([t, d]) => (
+              <li><Icon name="trophy" size={14} /><span>{t}<br />{d}</span></li>
+            ))}
+          </ul>
+        ))}
+      </div>
+    </div>
+    <div class="fotos">
+      {fotos.map((f) => <img src={`${U}/2025/09/${f}`} alt="Equipe da Three Monkeys Beer em premiações" loading="lazy" />)}
+    </div>
+  </section>
+
+  <ClubCta />
+  <InstagramFeed />
+</Base>
+
+<style>
+  .hero { height: min(860px, 62vw); min-height: 420px; background: #111 center top / cover no-repeat; position: relative; }
+  .hero::after { content: ''; position: absolute; inset: auto 0 0; height: 30%; background: linear-gradient(transparent, var(--bg)); }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; }
+  .lead { font-size: clamp(22px, 2.4vw, 30px); font-weight: 400; text-transform: uppercase; line-height: 1.25; margin-bottom: 30px; }
+  .txt { color: var(--white); font-size: 15px; line-height: 1.75; }
+  .txt strong { color: var(--white); }
+  .statement { font-size: clamp(22px, 2.4vw, 30px); line-height: 1.25; margin: 0; }
+  .premios h2 { font-size: 34px; text-transform: uppercase; margin-bottom: 30px; }
+  .lists { display: grid; grid-template-columns: 1fr 1fr; gap: 0 40px; }
+  .lists ul { list-style: none; margin: 0; padding: 0; }
+  .lists li { display: flex; gap: 10px; align-items: flex-start; font-size: 14px; color: var(--white); line-height: 1.55; margin-bottom: 14px; }
+  .lists li :global(svg) { flex: none; margin-top: 12px; }
+  .fotos { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 40px 15px 0; }
+  .fotos img { width: 100%; aspect-ratio: 1.72; object-fit: cover; }
+  @media (max-width: 767px) {
+    .two, .lists { grid-template-columns: 1fr; gap: 30px; }
+    .fotos { grid-template-columns: 1fr; }
+  }
+</style>

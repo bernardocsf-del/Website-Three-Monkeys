@@ -1,0 +1,73 @@
+---
+import Base from '../../layouts/Base.astro';
+import cervejas from '../../data/cervejas.json';
+
+type Beer = (typeof cervejas.beers)[keyof typeof cervejas.beers];
+
+export function getStaticPaths() {
+  return Object.values(cervejas.beers).map((beer) => ({ params: { slug: beer.slug }, props: { beer } }));
+}
+
+const { beer } = Astro.props as { beer: Beer };
+const listed = cervejas.groups.flatMap((g) => g.items).find((i) => i.slug === beer.slug);
+---
+<Base padded image={beer.image || undefined}>
+  <section class="hero">
+    <div class="container center">
+      {beer.kicker && <p class="kicker">{beer.kicker}</p>}
+      <h1>{beer.name}</h1>
+      {beer.meta && <p class="meta">{beer.meta}</p>}
+    </div>
+  </section>
+
+  <section class="body">
+    <div class="container cols">
+      <div class="photo">
+        <img src={beer.image || listed?.image} alt={beer.imageAlt || listed?.imageAlt || beer.name} loading="eager" />
+      </div>
+      <div class="info">
+        <div class="desc" set:html={beer.description} />
+        {beer.specs && <div class="specs" set:html={beer.specs} />}
+        {beer.buttons.length > 0 && (
+          <div class="buy">
+            {beer.buttons.map((b) => <a class="btn btn-outline" href={b.href}>{b.label}</a>)}
+          </div>
+        )}
+        <a class="btn-link back" href="/cervejas/">← Todas as cervejas</a>
+      </div>
+    </div>
+  </section>
+
+  {beer.extra && (
+    <section class="extra">
+      <div class="container prose" set:html={beer.extra} />
+    </section>
+  )}
+</Base>
+
+<style>
+  .hero { padding: 0 0 50px; }
+  .hero .kicker { font-size: 14px; letter-spacing: .3em; }
+  .hero h1 { font-size: clamp(34px, 5vw, 54px); font-weight: 800; margin: 0 0 10px; text-transform: uppercase; }
+  .meta { color: var(--gold); font-size: 16px; letter-spacing: .25em; text-transform: uppercase; margin: 0; }
+  .body { background: var(--bg); padding: 60px 0; border-top: 1px solid rgba(255, 255, 255, .03); }
+  .cols { display: grid; grid-template-columns: 5fr 7fr; gap: 40px; align-items: start; }
+  .photo img { max-height: 760px; width: auto; margin: 0 auto; }
+  .desc { color: var(--white); font-size: 15px; line-height: 1.75; }
+  .specs {
+    background: #f5f2ea; color: #333; border-left: 4px solid var(--gold); padding: 18px 22px; margin: 24px 0 28px;
+    font-size: 14px; line-height: 2;
+  }
+  .specs :global(p) { margin: 0; }
+  .specs :global(strong) { color: #222; }
+  .buy { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 18px; }
+  .back { display: inline-block; }
+  .extra { padding: 20px 0 60px; }
+  .extra .prose { max-width: var(--container); color: var(--text-soft); }
+  .extra .prose :global(h2) { color: var(--white); font-size: 22px; }
+  @media (max-width: 767px) {
+    .cols { grid-template-columns: 1fr; }
+    .photo img { max-height: 520px; }
+    .buy .btn { flex: 1 1 100%; }
+  }
+</style>

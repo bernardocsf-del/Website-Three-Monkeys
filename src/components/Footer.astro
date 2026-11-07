@@ -1,0 +1,59 @@
+---
+import Icon from './Icon.astro';
+import { LINKS } from '../lib/site';
+const FOOTER_LOGO = 'https://threemonkeysbeer.com/wp-content/uploads/2026/06/logo-header-novo-248x233-1.png.webp';
+---
+<footer class="site-footer">
+  <div class="container grid">
+    <div class="brand">
+      <img src={FOOTER_LOGO} alt="Three Monkeys Beer" width="230" height="216" loading="lazy" />
+      <div class="socials">
+        <a href={LINKS.untappd} target="_blank" rel="noopener" aria-label="Untappd"><Icon name="untappd" size={13} /></a>
+        <a href={`mailto:${LINKS.email}`} aria-label="E-mail"><Icon name="mail" size={13} /></a>
+        <a href={LINKS.instagram} target="_blank" rel="noopener" aria-label="Instagram"><Icon name="instagram" size={13} /></a>
+      </div>
+    </div>
+    <div class="about">
+      <p>Uma cervejaria artesanal brasileira com DNA carioca e espírito global, criada com o propósito de quebrar barreiras!</p>
+      <a class="btn btn-dark" href="/sobre/">Sobre nós</a>
+    </div>
+    <div class="contact">
+      <a class="mail" href={`mailto:${LINKS.email}`}><Icon name="mail" size={26} /> {LINKS.email}</a>
+      <a href="/politica-de-privacidade/">Política de privacidade</a>
+      <a href="/termos-de-uso/">Termos de uso</a>
+      <a href="/entrega/">Entrega e frete</a>
+      <a href="/devolucoes/">Trocas e devoluções</a>
+    </div>
+  </div>
+  <div class="copy">
+    © {new Date().getFullYear()} - Todos direitos Three Monkeys Beer - CNPJ: 51.131.410/0001-02
+  </div>
+</footer>
+
+<style>
+  .site-footer { border-top: 2px solid var(--gold-strong); background: var(--bg); }
+  .grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 40px; align-items: center; padding-top: 50px; padding-bottom: 50px; }
+  .brand { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+  .brand img { width: 230px; border-radius: 50%; }
+  .socials { display: flex; gap: 8px; }
+  .socials a {
+    width: 38px; height: 38px; border-radius: 50%; border: 2px solid var(--gold-strong); color: var(--gold);
+    display: inline-flex; align-items: center; justify-content: center;
+  }
+  .socials a:hover { background: var(--gold); color: var(--bg-deep); }
+  .about { text-align: center; color: var(--gold-strong); text-transform: uppercase; font-size: 15px; line-height: 1.6; }
+  .about p { margin-bottom: 20px; }
+  .contact { display: flex; flex-direction: column; gap: 12px; }
+  .contact a { color: var(--gold); text-transform: uppercase; font-size: 15px; }
+  .contact a:hover { color: var(--white); }
+  .contact .mail { text-transform: none; font-size: 17px; display: inline-flex; align-items: center; gap: 10px; margin-bottom: 8px; }
+  .copy {
+    border-top: 2px solid var(--gold-strong); text-align: center; color: var(--white); font-size: 13px;
+    text-transform: uppercase; padding: 30px var(--gutter) 40px;
+  }
+  @media (max-width: 900px) {
+    .grid { grid-template-columns: 1fr; text-align: center; gap: 30px; }
+    .contact { align-items: center; }
+    .brand img { width: 180px; }
+  }
+</style>

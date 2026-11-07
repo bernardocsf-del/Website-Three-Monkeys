@@ -1,0 +1,1226 @@
+{
+  "groups": [
+    {
+      "title": "NOSSA LINHA FIXA",
+      "scroll": false,
+      "items": [
+        {
+          "slug": "classic-ipa-free",
+          "name": "Classic IPA Free",
+          "format": "Lata 350ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja-classic-ipa-free-350.png.webp",
+          "imageAlt": "Classic IPA Free — Lata 350ml",
+          "seal": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/selo-free-circular.png.webp"
+        },
+        {
+          "slug": "classic-ipa-summer",
+          "name": "Classic IPA Summer",
+          "format": "Lata 350ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja-classic-ipa-summer-350.png.webp",
+          "imageAlt": "Classic IPA Summer — Lata 350ml",
+          "seal": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/selo-summer-27kcal.png.webp"
+        },
+        {
+          "slug": "im-sour",
+          "name": "I’m Sour",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja-im-sour-473.png.webp",
+          "imageAlt": "I'm Sour — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "classic-ipa",
+          "name": "Classic IPA",
+          "format": "Lata 350ml · Garrafa 500ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja-classic-ipa-500.png.webp",
+          "imageAlt": "Classic IPA — Lata 350ml e Garrafa 500ml",
+          "seal": null
+        },
+        {
+          "slug": "golden-ale",
+          "name": "Golden Ale",
+          "format": "Garrafa 500ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja-golden-ale-500.png.webp",
+          "imageAlt": "Golden Ale — Garrafa 500ml",
+          "seal": null
+        },
+        {
+          "slug": "hoppy-lager",
+          "name": "Hoppy Lager",
+          "format": "Garrafa 500ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja-hoppy-lager-500.png.webp",
+          "imageAlt": "Hoppy Lager — Garrafa 500ml",
+          "seal": null
+        }
+      ]
+    },
+    {
+      "title": "SAZONAIS",
+      "scroll": true,
+      "items": [
+        {
+          "slug": "charade-ipa-ii",
+          "name": "Charade IPA II",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/charade-ipa-ii.png.webp",
+          "imageAlt": "Charade IPA II — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "charade-ipa",
+          "name": "Charade",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/charade-ipa.png.webp",
+          "imageAlt": "Charade — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "dry-hop-me-not",
+          "name": "Dry Hop Me Not",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/dry-hop-me-not.png.webp",
+          "imageAlt": "Dry Hop Me Not — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "hop-dust-amarillo",
+          "name": "Hop Dust Amarillo",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/hop-dust-amarillo.png.webp",
+          "imageAlt": "Hop Dust Amarillo — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "hop-dust-citra",
+          "name": "Hop Dust Citra",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/hop-dust-citra.png.webp",
+          "imageAlt": "Hop Dust Citra — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "hop-dust-shock",
+          "name": "Hop Dust Shock",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/hop-dust-shock.png.webp",
+          "imageAlt": "Hop Dust Shock — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "im-damn-sour",
+          "name": "I’m Damn Sour",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/im-damn-sour.png.webp",
+          "imageAlt": "I'm Damn Sour — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "im-fcking-sour",
+          "name": "I’m F#cking Sour",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/im-fcking-sour.png.webp",
+          "imageAlt": "I'm F#cking Sour — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "im-sour-baby",
+          "name": "I’m Sour, Baby",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/im-sour-baby.png.webp",
+          "imageAlt": "I'm Sour, Baby — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "mandarine-dream",
+          "name": "Mandarine Dream",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/mandarine-dream.png.webp",
+          "imageAlt": "Mandarine Dream — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "hop-dust",
+          "name": "Hop Dust",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/hop-dust.png.webp",
+          "imageAlt": "Hop Dust — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "milky-way-ipa",
+          "name": "Milky Way IPA",
+          "format": "Lata 350ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/milky-way-ipa.png.webp",
+          "imageAlt": "Milky Way IPA — Lata 350ml",
+          "seal": null
+        },
+        {
+          "slug": "paranoid-about-coconut-and-coffee",
+          "name": "Paranoid About Coconut and Coffee",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/paranoid-about-coconut-and-coffee.png.webp",
+          "imageAlt": "Paranoid About Coconut and Coffee — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "paranoid-about-coconut",
+          "name": "Paranoid About Coconut",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/paranoid-about-coconut.png.webp",
+          "imageAlt": "Paranoid About Coconut — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "paranoid-about-vanilla",
+          "name": "Paranoid About Vanilla",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/paranoid-about-vanilla.png.webp",
+          "imageAlt": "Paranoid About Vanilla — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "paranoid-about-popcorn",
+          "name": "Paranoid About Popcorn",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/paranoid-about-popcorn.png.webp",
+          "imageAlt": "Paranoid About Popcorn — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "strawberry-milky-way-ipa",
+          "name": "Strawberry Milky Way IPA",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/strawberry-milky-way-ipa.png.webp",
+          "imageAlt": "Strawberry Milky Way IPA — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "tropicalism",
+          "name": "Tropicalism",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/tropicalism.png.webp",
+          "imageAlt": "Tropicalism — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "peter-the-bitter",
+          "name": "Peter, The Bitter",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/peter-the-bitter.png.webp",
+          "imageAlt": "Peter, The Bitter — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "double-detox",
+          "name": "Double Detox",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/double-detox.png.webp",
+          "imageAlt": "Double Detox — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "galaxy-detox",
+          "name": "Galaxy Detox",
+          "format": "Lata 350ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/galaxy-detox.png.webp",
+          "imageAlt": "Galaxy Detox — Lata 350ml",
+          "seal": null
+        }
+      ]
+    },
+    {
+      "title": "GOURMET",
+      "scroll": false,
+      "items": [
+        {
+          "slug": "al-mare",
+          "name": "Al Mare",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_al-mare.png.webp",
+          "imageAlt": "Al Mare — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "gazpacho",
+          "name": "Gazpacho",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_gazpacho.png.webp",
+          "imageAlt": "Gazpacho — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "honey-dijon",
+          "name": "Honey Dijon",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_honey-dijon.png.webp",
+          "imageAlt": "Honey Dijon — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "kiro-sour",
+          "name": "Kiro Sour",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_kiro-sour.png.webp",
+          "imageAlt": "Kiro Sour — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "oriental",
+          "name": "Oriental",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_oriental.png.webp",
+          "imageAlt": "Oriental — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "thai-curry",
+          "name": "Thai Curry",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_thai-curry.png.webp",
+          "imageAlt": "Thai Curry — Lata 473ml",
+          "seal": null
+        }
+      ]
+    },
+    {
+      "title": "COLLABS",
+      "scroll": true,
+      "items": [
+        {
+          "slug": "bff21-summertime-in-rio",
+          "name": "BFF21 Summertime in Rio",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_bff21-summertime-in-rio.png.webp",
+          "imageAlt": "BFF21 Summertime in Rio — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "coffee-zest",
+          "name": "Coffee Zest",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_coffee-zest.png.webp",
+          "imageAlt": "Coffee Zest — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "copacabana",
+          "name": "Copacabana",
+          "format": "Garrafa 355ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_copacabana.png.webp",
+          "imageAlt": "Copacabana — Garrafa 355ml",
+          "seal": null
+        },
+        {
+          "slug": "copacabana-ii",
+          "name": "Copacabana 2",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_copacabana-ii.png.webp",
+          "imageAlt": "Copacabana 2 — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "bff21-get-together",
+          "name": "BFF21 Get Together",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_bff21-get-together.png.webp",
+          "imageAlt": "BFF21 Get Together — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "bff21-high-spirits",
+          "name": "BFF21 High Spirits",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_bff21-high-spirits.png.webp",
+          "imageAlt": "BFF21 High Spirits — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "new-dawn",
+          "name": "New Dawn",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_new-dawn.png.webp",
+          "imageAlt": "New Dawn — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "bff21-heavy-delight",
+          "name": "BFF21 Heavy Delight",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_bff21-heavy-delight.png.webp",
+          "imageAlt": "BFF21 Heavy Delight — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "bff21-relax-into-the-wild",
+          "name": "BFF21 Relax Into the Wild",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_bff21-relax-into-the-wild.png.webp",
+          "imageAlt": "BFF21 Relax Into the Wild — Lata 473ml",
+          "seal": null
+        }
+      ]
+    },
+    {
+      "title": "RARE MONKEYS",
+      "scroll": true,
+      "items": [
+        {
+          "slug": "argentatus",
+          "name": "Argentatus",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_argentatus.png.webp",
+          "imageAlt": "Argentatus — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "chrysomelas",
+          "name": "Chrysomelas",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_chrysomelas.png.webp",
+          "imageAlt": "Chrysomelas — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "cupreus",
+          "name": "Cupreus",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_cupreus.png.webp",
+          "imageAlt": "Cupreus — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "flavius",
+          "name": "Flavius",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_flavius.png.webp",
+          "imageAlt": "Flavius — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "guariba",
+          "name": "Guariba",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_guariba.png.webp",
+          "imageAlt": "Guariba — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "lagothrix",
+          "name": "Lagothrix",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_lagothrix.png.webp",
+          "imageAlt": "Lagothrix — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "leontopithecus",
+          "name": "Leontopithecus",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_leontopithecus.png.webp",
+          "imageAlt": "Leontopithecus — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "saimiri",
+          "name": "Saimiri",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_saimiri.png.webp",
+          "imageAlt": "Saimiri — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "sapajus",
+          "name": "Sapajus",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_sapajus.png.webp",
+          "imageAlt": "Sapajus — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "moloch",
+          "name": "Moloch",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_moloch.png.webp",
+          "imageAlt": "Moloch — Lata 473ml",
+          "seal": null
+        }
+      ]
+    },
+    {
+      "title": "HISTÓRICAS",
+      "scroll": false,
+      "items": [
+        {
+          "slug": "paranoid",
+          "name": "Paranoid",
+          "format": "Lata 473ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_paranoid.png.webp",
+          "imageAlt": "Paranoid — Lata 473ml",
+          "seal": null
+        },
+        {
+          "slug": "wit-vezpa",
+          "name": "Wit Vezpa",
+          "format": "Garrafa 500ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_wit-vezpa.png.webp",
+          "imageAlt": "Wit Vezpa — Garrafa 500ml",
+          "seal": null
+        },
+        {
+          "slug": "cool-lager",
+          "name": "Cool Lager",
+          "format": "Garrafa 500ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_cool-lager.png.webp",
+          "imageAlt": "Cool Lager — Garrafa 500ml",
+          "seal": null
+        },
+        {
+          "slug": "wit-ipa",
+          "name": "Wit IPA",
+          "format": "Garrafa 500ml",
+          "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/08/cerveja_wit-ipa.png.webp",
+          "imageAlt": "Wit IPA — Garrafa 500ml",
+          "seal": null
+        }
+      ]
+    }
+  ],
+  "beers": {
+    "classic-ipa-free": {
+      "slug": "classic-ipa-free",
+      "kicker": "LINHA FIXA · DESDE 2024",
+      "name": "CLASSIC IPA FREE",
+      "meta": "IPA SEM ÁLCOOL · ≤0,5% ABV · 25 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/P_gina_Classic_IPA_Free_lata_grande-529x1024.png.webp",
+      "imageAlt": "Classic IPA Free lata 350ml",
+      "description": "<p>Nada supera o clássico! E você já conhece bem a nossa Classic IPA. Agora lançamos a sua versão Free, com todo o sabor lupulado de uma boa IPA, mas sem álcool!</p>\n<p>Feita com os lúpulos Centennial, Citra e El Dorado, essa é a prova de que cerveja sem álcool não precisa ser sem graça. Então seja Free para apreciá-la em qualquer momento do seu dia!</p>",
+      "specs": "<p><strong>Lúpulos:</strong> Centennial, Citra e El Dorado<br><strong>Lançamento:</strong> 2024</p>",
+      "buttons": [
+        {
+          "label": "COMPRAR — LATA 350ML",
+          "href": "/produto/classic-ipa-free-350ml-12-un/"
+        }
+      ],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>IPA sem álcool é uma IPA de verdade que passa por um processo capaz de manter o perfil de lúpulo com no máximo 0,5% de álcool. O desafio do estilo é justamente esse: sem o álcool para dar corpo, tudo depende do lúpulo e do malte. Os 25 IBU deixam um amargor moderado, mais leve que o de uma IPA tradicional, e os lúpulos Centennial, Citra e El Dorado seguram o aroma cítrico e tropical que você espera de uma IPA.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa. Sem álcool, ela pede um ou dois graus a menos que uma IPA comum para ficar mais refrescante — mas nada de congelar, senão o aroma de lúpulo se fecha. Servir na taça em vez de beber direto da lata muda bastante a experiência aqui.</p>\n<h2>Harmoniza com</h2>\n<p>Como não pesa, funciona em quase tudo: petiscos, sanduíches, pizza, frutos do mar e comida apimentada. É a escolha natural para o almoço em dia de trabalho, para quem vai dirigir ou para quem quer acompanhar a mesa inteira sem contar o álcool. E aguenta uma sessão longa de churrasco sem sair do prumo.</p>"
+    },
+    "classic-ipa-summer": {
+      "slug": "classic-ipa-summer",
+      "kicker": "LINHA FIXA · DESDE 2026",
+      "name": "CLASSIC IPA SUMMER",
+      "meta": "SESSION IPA · 3,3% ABV",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/Mockup_Classic_IPA_Summer_fonte_card-519x1024.png.webp",
+      "imageAlt": "",
+      "description": "<p>Nada supera o clássico… mas às vezes ele pode ser mais leve! A Summer traz toda a essência da nossa já icônica Classic IPA, agora em uma versão mais suave, perfeita para acompanhar longos encontros e brindes sem pressa.</p>\n<p>Os lúpulos El Dorado, Citra e Mosaic entregam notas vibrantes de frutas cítricas e tropicais, como se fosse o próprio verão carioca em forma de cerveja. Uma Session IPA Clássica, com a leveza que pede mais um gole! ’Cause it`s always SUMMER in Rio!</p>",
+      "specs": "<p><strong>Lúpulos:</strong> El Dorado, Citra e Mosaic<br><strong>Lançamento:</strong> 2026</p>",
+      "buttons": [
+        {
+          "label": "COMPRAR — LATA 350ML",
+          "href": "/produto/classic-ipa-summer-350ml-12-un/"
+        }
+      ],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Session IPA é a IPA em versão leve: mesmo trabalho de lúpulo, menos álcool e menos corpo, feita para você beber várias sem perder o fôlego — o nome vem daí, de session, a sessão longa. Com 3,3% ABV, a Classic IPA Summer fica bem abaixo de uma IPA tradicional e ganha em drinkability sem abrir mão do aroma. Os lúpulos El Dorado, Citra e Mosaic entregam o lado cítrico e tropical do estilo, que é o que define uma boa session.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou copo alto. Session IPA é das poucas cervejas lupuladas que pedem um pouco mais de gelo: como o corpo é leve, a temperatura baixa realça o frescor em vez de esconder o aroma. É exatamente por isso que ela funciona tão bem no calor.</p>\n<h2>Harmoniza com</h2>\n<p>Petiscos de bar, frango grelhado, peixe, tacos, saladas e comida leve em geral. Por ser mais suave, ela acompanha a refeição inteira sem dominar o prato. Também é uma ótima porta de entrada para quem acha IPA tradicional amarga demais.</p>"
+    },
+    "im-sour": {
+      "slug": "im-sour",
+      "kicker": "LINHA FIXA · DESDE 2017",
+      "name": "I'M SOUR",
+      "meta": "SOUR · 6,3% ABV · 15 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/P_gina_I_m_Sour_lata_grande-357x1024.png.webp",
+      "imageAlt": "I'm Sour lata 473ml",
+      "description": "<p>Olha a Goiaaaabaaaaa! Olha a Pitaaaayaaaaa! Vem você, freguês! Aqui tem fruta, malte, lúpulo, levedura e água. Mas de um jeito diferentão, incomum, excêntrico. Mas calma, a gente não é tão ácido assim. I’m Sour é a primeira cerveja da nossa linha Sour. Uma cerveja fresca, azedinha, deliciosa.</p>\n<p>Um suco de frutas. Visual característico da pitaya. Sabor e aroma inconfundíveis da goiaba. Pode chegar, gente bonita não paga, mas também não leva. Você vai curtir. E se não curtir, I’m Sour.</p>",
+      "specs": "<p><strong>Maltes:</strong> Pilsen, trigo em flocos, Vienna<br><strong>Lúpulos:</strong> Columbus<br><strong>Extras:</strong> pitaya roxa, goiaba<br><strong>Lançamento:</strong> 2017</p>",
+      "buttons": [
+        {
+          "label": "COMPRAR — LATA 473ML",
+          "href": "/produto/im-sour-473ml-6-un/"
+        }
+      ],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Sour é a cerveja ácida, e a acidez aqui vem da fermentação lática: aquele frescor que faz salivar e limpa a boca a cada gole. Os 15 IBU deixam o amargor em segundo plano — é um estilo que costuma agradar até quem diz não gostar de cerveja. Com 6,3% ABV, ela tem corpo suficiente para sustentar as frutas sem virar refresco. Pitaya roxa e goiaba entram sobre uma base de Pilsen, trigo em flocos e Vienna, com lúpulo Columbus.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou taça de vinho branco. A taça concentra o aroma das frutas, que é metade da experiência aqui. E sirva na taça também pela cor: o visual da pitaya faz parte do show.</p>\n<h2>Harmoniza com</h2>\n<p>A acidez corta gordura e prepara o paladar para o próximo garfo, então ela brilha à mesa. Ceviche, peixes grelhados, frutos do mar, queijos frescos, saladas com vinagrete e comida asiática levemente picante. Também funciona sozinha, como aperitivo antes da refeição.</p>"
+    },
+    "classic-ipa": {
+      "slug": "classic-ipa",
+      "kicker": "LINHA FIXA · DESDE 2017",
+      "name": "CLASSIC IPA",
+      "meta": "AMERICAN IPA · 6% ABV · 45 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/P_gina_Classic_IPA_garrafa_grande-334x1024.png.webp",
+      "imageAlt": "Classic IPA garrafa 500ml",
+      "description": "<p>Nada supera o CLÁSSICO! Lúpulos tradicionais como Amarillo, Centennial e Citra com a modernidade e tropicalidade do El Dorado e do Galaxy.</p>\n<p>Um perfil clean vindo do fermento americano e dos maltes cuidadosamente selecionados criando uma base pro lúpulo brilhar, como uma IPA deve ser. Sabor e aroma marcantes, cítricos e tropicais. Sim, o clássico sempre encanta, e fica pra sempre. So, let’s go back to the CLASSIC IPA.</p>",
+      "specs": "<p><strong>Maltes:</strong> Pilsen, aveia em flocos, Caramel 100<br><strong>Lúpulos:</strong> Centennial, Citra, El Dorado, Galaxy, Amarillo<br><strong>Lançamento:</strong> 2017</p>",
+      "buttons": [
+        {
+          "label": "COMPRAR — GARRAFA 500ML",
+          "href": "/produto/classic-ipa-500ml-6-un/"
+        },
+        {
+          "label": "COMPRAR — LATA 350ML",
+          "href": "/produto/classic-ipa-350ml-12-un/"
+        }
+      ],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>American IPA é o estilo que transformou o lúpulo em protagonista: aroma cítrico e tropical na frente, amargor firme no fim e um malte que sustenta sem roubar a cena. Os 45 IBU colocam a Classic IPA num amargor bem definido, do tipo que você sente e reconhece, mas que não amarra a boca. Os 6% ABV dão corpo médio e mantêm a cerveja fácil de acompanhar. Cinco lúpulos assinam esse perfil — Centennial, Citra, El Dorado, Galaxy e Amarillo — sobre uma base de Pilsen, aveia em flocos e Caramel 100.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou teku. IPA é cerveja de aroma: gelada demais, o buquê de lúpulo simplesmente fecha e você perde a melhor parte. Sirva aos poucos e repare em como o aroma muda conforme a temperatura sobe um grau ou dois.</p>\n<h2>Harmoniza com</h2>\n<p>O amargor corta gordura e a carbonatação limpa o paladar, então ela vai muito bem com hambúrguer, costela, frango frito e petisco de bar. Queijos maturados e pratos apimentados — mexicano, indiano, tailandês — também combinam, porque o lúpulo realça o tempero. Na sobremesa, algo cítrico como uma torta de limão conversa direto com o Citra e o Amarillo.</p>"
+    },
+    "golden-ale": {
+      "slug": "golden-ale",
+      "kicker": "LINHA FIXA · DESDE 2013",
+      "name": "GOLDEN ALE",
+      "meta": "GOLDEN ALE · 7,5% ABV · 30 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/P_gina_Golden_Ale_garrafa_grande-334x1024.png.webp",
+      "imageAlt": "Golden Ale garrafa 500ml",
+      "description": "<p>Com identidade própria, a Golden Ale é uma cerveja que não se prende a estilos.</p>\n<p>A cerveja, de alta fermentação, apresenta uma coloração dourada e uma generosa camada de espuma cremosa.</p>\n<p>Traz em seu aroma um perfil harmônico entre o malte e o lúpulo, apresentando notas adocicadas na medida certa. O fino amargor equilibra as notas doces e maltadas. Com bom corpo, mas ainda assim refrescante, é uma cerveja agradável e muito fácil de beber!</p>",
+      "specs": "<p><strong>Maltes:</strong> Pilsen, Munich, aveia em flocos<br><strong>Lúpulos:</strong> Zeus, Saaz<br><strong>Lançamento:</strong> 2013</p>",
+      "buttons": [
+        {
+          "label": "COMPRAR — GARRAFA 500ML",
+          "href": "/produto/golden-ale-500ml-6-un/"
+        }
+      ],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Golden Ale é a cerveja dourada de alta fermentação feita para ser fácil: malte na medida, lúpulo discreto e um final limpo que não exige nada de quem está bebendo. Esta versão foge um pouco do padrão do estilo com 7,5% ABV, o que dá mais corpo e um dulçor de malte mais evidente do que numa Golden Ale comum. Os 30 IBU deixam o amargor num nível baixo-médio, só o suficiente para equilibrar o malte. Pilsen, Munich e aveia em flocos formam a base, com Zeus e Saaz no lúpulo.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou copo tipo pilsner. Com 7,5% ABV, ela ganha muito ao não ser servida congelante: nessa faixa o malte aparece e o álcool fica integrado ao conjunto. Sirva aos poucos, porque ela é mais forte do que parece.</p>\n<h2>Harmoniza com</h2>\n<p>Por ser equilibrada, encara quase tudo: petiscos, frango assado, carne de porco, pizza e queijos de massa mole. O dulçor do malte se dá bem com pratos levemente adocicados ou tostados, como leitão ou cebola caramelizada. É a cerveja curinga da mesa quando cada um quer uma coisa diferente.</p>"
+    },
+    "hoppy-lager": {
+      "slug": "hoppy-lager",
+      "kicker": "LINHA FIXA · DESDE 2021",
+      "name": "HOPPY LAGER",
+      "meta": "AMERICAN LAGER · 5% ABV · 12 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/P_gina_Hoppy_Lager_garrafa_grande-334x1024.png.webp",
+      "imageAlt": "Hoppy Lager garrafa 500ml",
+      "description": "<p>Uma Lager lupulada com originalidade. Assim é a Hoppy Lager! Uma cerveja para momentos mais leves do seu dia e com o brilho dos lúpulos americanos. Mas vamos lá, ela pode até ser suave, mas nunca sem personalidade!</p>\n<p>Os lúpulos tradicionais dão lugar à modernidade, com um dry-hopping sutil. Por isso a Hoppy Lager tem uma simplicidade paradoxal. Grande drinkability contrastando com uma carga de lúpulo na medida certa. Os lúpulos americanos trazem notas cítricas, perfeitos para dar equilíbrio, leveza e um leve amargor para o seu gole. Be Hoppy to be Happy!</p>",
+      "specs": "<p><strong>Maltes:</strong> Pilsen<br><strong>Lúpulos:</strong> Columbus, Centennial<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [
+        {
+          "label": "COMPRAR — GARRAFA 500ML",
+          "href": "/produto/hoppy-lager-500ml-6-un/"
+        }
+      ],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>American Lager é a lager de baixa fermentação feita para ser leve, limpa e refrescante: fermentação a frio, maturação longa e um perfil sem arestas. Os 5% ABV e os 12 IBU colocam a Hoppy Lager num território de amargor baixo e alta drinkability — é cerveja para beber, não para analisar. A diferença está no nome: os lúpulos Columbus e Centennial dão um aroma bem mais presente do que numa lager comum, sobre uma base simples de malte Pilsen.</p>\n<h2>Como servir</h2>\n<p>Entre 3 °C e 5 °C, em copo pilsner ou caneca. Lager é dos poucos estilos que realmente se beneficiam do gelo — quanto mais fresca, mais refrescante ela fica. Vale gelar o copo junto e servir com um dedo de colarinho, que ajuda a segurar o aroma de lúpulo.</p>\n<h2>Harmoniza com</h2>\n<p>Praticamente tudo o que se come de pé: petiscos, salgadinhos, batata frita, pastel, churrasco e pizza. A leveza e a carbonatação limpam o paladar entre uma mordida e outra, o que a torna ótima parceira de comida salgada e frita. É a cerveja da geladeira cheia, do jogo e do fim de tarde.</p>"
+    },
+    "charade-ipa-ii": {
+      "slug": "charade-ipa-ii",
+      "kicker": "SAZONAL · 2021",
+      "name": "CHARADE IPA II",
+      "meta": "SINGLE-HOP NE-IPA · 6,5% ABV",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-charade-ipa-ii.png.webp",
+      "imageAlt": "charade ipa ii",
+      "description": "<p>Apresentamos a Charade IPA II! Uma NE-IPA do jeito como deve ser: turva, aveludada e extremamente aromática e saborosa.</p>\n<p>Mas aí vem a charada! Ela é uma Single-Hop, ou seja, usamos um único lúpulo nela, que está entre as 20 opções listadas no rótulo.</p>\n<p>Você só tem uma chance de tentar acertar qual lúpulo usamos! E se conseguir, ganha uma camiseta exclusiva da CHARADE IPA II, que só quem acertou vai ter! Será que você tem um olfato apurado o suficiente pra provar que é merecedor desse manto raro?</p>",
+      "specs": "<p><strong>Lúpulo:</strong> mistério — essa é a charada!<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Single-Hop NE-IPA é uma New England IPA feita com um único lúpulo — um exercício de transparência: sem mistura, o que está na taça é a expressão pura daquela variedade. A Charade II repete a charada da primeira edição com 6,5% ABV: adivinhar o lúpulo pelo aroma. Turva, macia e aromática como manda o estilo.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou teku. Sirva fresca, com colarinho, e brinque com a proposta: sinta o aroma e tente nomear o lúpulo antes de olhar a resposta.</p>\n<h2>Harmoniza com</h2>\n<p>Tacos, poke, frango grelhado e queijos cremosos. Pratos limpos deixam o lúpulo único brilhar — que é exatamente a proposta da cerveja.</p>"
+    },
+    "charade-ipa": {
+      "slug": "charade-ipa",
+      "kicker": "SAZONAL · 2021",
+      "name": "CHARADE IPA",
+      "meta": "SINGLE-HOP NE-IPA · 6,3% ABV · 34 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-charade-ipa.png.webp",
+      "imageAlt": "charade ipa",
+      "description": "<p>Apresentamos a Charade IPA! Uma NE-IPA do jeito como deve ser: aveludada e extremamente aromática e saborosa.</p>\n<p>Mas aí vem a charada! Ela é uma Single-Hop, ou seja, usamos um único lúpulo nela, que estava entre as 20 opções listadas no rótulo.</p>\n<p>Você só tinha uma chance de tentar acertar qual lúpulo usamos! E se conseguisse, ganhava uma camiseta exclusiva da CHARADE IPA, que só quem acertou tem! Será que você teria um olfato apurado o suficiente pra provar que é merecedor desse manto raro?</p>",
+      "specs": "<p><strong>Lúpulo:</strong> Vic Secret (single-hop)<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Single-Hop NE-IPA é uma New England IPA de um lúpulo só: sem blend, a cerveja vira retrato fiel de uma única variedade. A Charade transforma isso em jogo — o nome convida a adivinhar qual lúpulo está na taça. Com 6,3% ABV e 34 IBU, é turva, macia e aromática, com o amargor educado do estilo.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em tulipa ou teku. Cerveja de aroma e de conversa: sirva fresca e proponha a charada à mesa antes de revelar o lúpulo.</p>\n<h2>Harmoniza com</h2>\n<p>Ceviche, tacos, saladas cítricas e queijos frescos. Comida leve e fresca mantém o palco livre pro lúpulo — o protagonista declarado da cerveja.</p>"
+    },
+    "dry-hop-me-not": {
+      "slug": "dry-hop-me-not",
+      "kicker": "SAZONAL · 2018",
+      "name": "DRY HOP ME NOT",
+      "meta": "DOUBLE IPA · 8% ABV · 60 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-dry-hop-me-not.png.webp",
+      "imageAlt": "dry hop me not",
+      "description": "<p>Dry Hop Me… NOOT! Originada na Grã Bretanha, a técnica do Dry Hopping consiste na adição de lúpulo após o processo de fervura do mosto, durante a fermentação ou maturação. Isso com o objetivo de chegar ao máximo nível de sabor e aroma. Hoje em dia é considerado mais que normal. Massss, resolvemos fazer um pouquinho diferente! Uma Double IPA sem Dry Hopping. Adição total do lúpulo feita na panela! A Dry Hop Me Not chega pra provar que com técnicas corretas e a escolha do lúpulo certo é possível fazer uma IPA impactante, efeito máximo de sabor de lúpulo. Vic Secret mais fresco do mercado, safra 2018. Frutado, ligeiramente resinoso. Diretamente da Austrália pra você que curte a potência do lúpulo no sabor!</p>\n<p>So, feel the hops!</p>",
+      "specs": "<p><strong>Lúpulo:</strong> Vic Secret (safra 2018, só no tacho — sem dry hop!)<br><strong>Lançamento:</strong> 2018</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Double IPA é a IPA em dose dupla: mais malte, mais lúpulo, mais álcool. Os 8% ABV e 60 IBU da Dry Hop Me Not entregam intensidade honesta — amargor firme, aroma carregado e corpo pra sustentar tudo. O nome brinca com a técnica que define a categoria: o dry hop, a adição de lúpulo a frio que multiplica o aroma.</p>\n<h2>Como servir</h2>\n<p>Entre 7 °C e 9 °C, em taça tulipa. Cerveja grande pede calma: goles menores, temperatura um pouco acima da geladeira e atenção ao aroma antes de cada gole.</p>\n<h2>Harmoniza com</h2>\n<p>Costela, hambúrguer duplo, curry apimentado e queijos fortes. Double IPA precisa de comida com personalidade — prato tímido desaparece do lado dela.</p>"
+    },
+    "hop-dust-amarillo": {
+      "slug": "hop-dust-amarillo",
+      "kicker": "SAZONAL · 2021",
+      "name": "HOP DUST AMARILLO",
+      "meta": "NEW ENGLAND IPA · 7% ABV · 55 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-hop-dust-amarillo.png.webp",
+      "imageAlt": "hop dust amarillo",
+      "description": "<p>A HOP DUST muda de cara, muda de cor, mas não muda em personalidade. AMARILLO! Além de Simcoe e Mosaic, agora o lúpulo Amarillo complementa a experiência com notas cítricas e de frutas como tangerina, damasco e melão.</p>\n<p>Imagine uma tempestade de sabores e aromas dominando o nosso universo por inteiro. Imagine o Lúpulo; concentrado e enriquecido. Processado a temperaturas extremamente baixas, que eliminam qualquer tipo de imperfeição. O lúpulo descontruído até sua essência: a Lupulina. Chegou a vez do CRYO® AMARILLO®.</p>\n<p>HOP DUST AMARILLO: Uma tempestade no universo. Na sua boca. Na sua mente.</p>",
+      "specs": "<p><strong>Lúpulos:</strong> Simcoe, Mosaic e Amarillo<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>New England IPA é a IPA turva e aromática, de amargor domado e fruta em primeiro plano. Nesta edição da série Hop Dust, o palco é do Amarillo: lúpulo americano de laranja, tangerina e damasco, mais doce no aroma que seus primos cítricos. Mesma base de 7% ABV e 55 IBU das irmãs — o que muda é a assinatura do lúpulo.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em tulipa ou teku. Compare com as outras Hop Dust se tiver a chance: mesma cerveja, lúpulo diferente — a série é uma aula de degustação. Sempre fresca.</p>\n<h2>Harmoniza com</h2>\n<p>Frango assado, camarão grelhado, saladas com laranja e queijos de média cura. O tom alaranjado do Amarillo combina com pratos agridoces e molhos cítricos.</p>"
+    },
+    "hop-dust-citra": {
+      "slug": "hop-dust-citra",
+      "kicker": "SAZONAL · 2018",
+      "name": "HOP DUST CITRA",
+      "meta": "NEW ENGLAND IPA · 7% ABV · 55 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-hop-dust-citra.png.webp",
+      "imageAlt": "hop dust citra",
+      "description": "<p>A HOP DUST muda de cara, muda de cor, mas não muda em personalidade. CITRA! CITRA! CITRA! Além de Simcoe e Mosaic, agora o lúpulo CITRA traz um forte perfil cítrico no aroma e no paladar. Frutas tropicais, limão, grapefruit. Resumindo: tropicalidade.</p>\n<p>Imagine uma tempestade de sabores e aromas dominando o nosso universo por inteiro. Imagine o lúpulo. FROST. DUST. Temperaturas baixas que eliminam qualquer tipo de imperfeição, de oxidação. O lúpulo separado, concentrado, em powder. Lupulina. O lúpulo como lúpulo. Chegou a vez do CITRA.</p>\n<p>HOP DUST CITRA: Uma tempestade no universo. Na sua boca. Na sua cabeça.</p>",
+      "specs": "<p><strong>Lúpulos:</strong> Simcoe, Mosaic e Citra<br><strong>Lançamento:</strong> 2018</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>New England IPA é a IPA turva focada em aroma: o lúpulo entra tarde no processo e entrega fruta em vez de amargor agressivo. Na série Hop Dust, cada edição isola um lúpulo — e o Citra é talvez o mais celebrado dos lúpulos americanos: cítrico intenso, maracujá e lima. 7% ABV e 55 IBU embalados em corpo macio.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou teku. Citra é aroma em estado puro: beba a cerveja o mais fresca possível e sirva com colarinho pra liberar o buquê.</p>\n<h2>Harmoniza com</h2>\n<p>Ceviche, tacos de peixe, frango com limão e comida tailandesa. O cítrico do Citra pede pratos com acidez e frescor — e aguenta pimenta com elegância.</p>"
+    },
+    "hop-dust-shock": {
+      "slug": "hop-dust-shock",
+      "kicker": "SAZONAL · 2018",
+      "name": "HOP DUST SHOCK",
+      "meta": "NEW ENGLAND IPA · 7% ABV · 55 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-hop-dust-shock.png.webp",
+      "imageAlt": "hop dust shock",
+      "description": "<p>A HOP DUST muda de cara, muda de cor, mas não muda em personalidade. Um SHOCK de aromas! Além de Simcoe e Mosaic, o lúpulo EKUANOT traz a intensidade de uma mistura vibrante: pimentas frescas, mamão, pinho, casca de laranja, limão, melão e berries.</p>\n<p>Imagine uma tempestade de sabores e aromas dominando o nosso universo por inteiro. Imagine o lúpulo. FROST. DUST. Temperaturas baixas que eliminam qualquer tipo de imperfeição, de oxidação. O lúpulo separado, concentrado, em powder. Lupulina. O lúpulo como lúpulo. Chegou a vez do EKUANOT.</p>\n<p>HOP DUST SHOCK: Uma tempestade no universo. Na sua boca. Na sua cabeça.</p>",
+      "specs": "<p><strong>Lúpulos:</strong> Simcoe, Mosaic e Ekuanot<br><strong>Lançamento:</strong> 2018</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>New England IPA é a IPA turva e aromática da escola americana moderna: lúpulo no fim do processo, muito aroma, amargor contido pro estilo. A série Hop Dust explora um lúpulo por vez, e a Shock mostra o que a variedade escolhida entrega quando joga sozinha — 7% ABV, 55 IBU e fruta tropical no nariz.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou teku. Cerveja de aroma: fresca, recém-aberta e com colarinho. A turbidez faz parte do estilo.</p>\n<h2>Harmoniza com</h2>\n<p>Hambúrguer, comida apimentada, tacos e queijos cremosos. A gordura equilibra o lúpulo; a fruta do aroma faz ponte com molhos agridoces.</p>"
+    },
+    "im-damn-sour": {
+      "slug": "im-damn-sour",
+      "kicker": "SAZONAL · 2019",
+      "name": "I'M DAMN SOUR",
+      "meta": "SOUR · 6,3% ABV · 15 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-im-damn-sour.png.webp",
+      "imageAlt": "im damn sour",
+      "description": "<p>Ooooolha a tropicalidade, freguesa! Olha o Maracujáaaaaa! Olha a Pitaaaayaaaaa! Vem você, freguês! Aqui tem fruta, malte, lúpulo, levedura e água. Mas de um jeito diferentão, incomum, excêntrico. Mas calma, a gente não é tão ácido assim. I’m Damn Sour é a quarta cerveja da nossa linha Sour. Uma cerveja fresca, azedinha, deliciosa. Um suco de frutas. Visual característico da pitaya. Sabor e aroma inconfundíveis do maracujá. É só hoje, freguesia. Tá por preço de banana! Você vai curtir. E se não curtir, I’m Damn Sour.</p>",
+      "specs": "<p><strong>Extras:</strong> pitaya e maracujá<br><strong>Lançamento:</strong> 2019</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Sour é a família das cervejas ácidas, e a I’m Damn Sour leva o nome a sério: acidez láctica em primeiro plano, 15 IBU discretos e 6,3% ABV de estrutura. O damn do nome avisa: é a versão mais intensa da linha Sour da casa — pra quem já gosta de acidez e quer um degrau acima.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou de vinho branco. Acidez intensa pede goles menores e temperatura controlada — muito gelada, agride; no ponto, refresca com profundidade.</p>\n<h2>Harmoniza com</h2>\n<p>Pratos gordurosos agradecem: embutidos, queijos curados, frituras. A acidez funciona como o limão que você espremeria por cima. Ostras e ceviche também são parceiros naturais.</p>"
+    },
+    "im-fcking-sour": {
+      "slug": "im-fcking-sour",
+      "kicker": "SAZONAL · 2018",
+      "name": "I'M F#CKING SOUR",
+      "meta": "SOUR · 6,3% ABV · 15 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-im-fcking-sour.png.webp",
+      "imageAlt": "im fcking sour",
+      "description": "<p>Tem Pitaaaayaaaaa? TEM! Tem FRAMBOESA? TEM! E sabe o que mais? TEM LIMÃO! Vem você, freguês! Aqui tem fruta, malte, lúpulo, levedura e água.</p>\n<p>Mas de um jeito diferentão, incomum, excêntrico. I’m Fucking Sour é a terceira cerveja da nossa linha Sour. Uma cerveja fresca, azedinha, deliciosa. Um suco de frutas. Visual característico da pitaya. Sabor e aroma inconfundíveis de framboesa. E a acidez do limão.</p>\n<p>Não é caldo de cana mas vai lamber os beiços. Você vai curtir. E se não curtir, I’m Fucking Sour.</p>",
+      "specs": "<p><strong>Extras:</strong> pitaya, framboesa e limão<br><strong>Lançamento:</strong> 2018</p>",
+      "buttons": [
+        {
+          "label": "COMPRAR — LATA 473ML",
+          "href": "/produto/im-fcking-sour-473ml-6-un/"
+        }
+      ],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Sour é a cerveja ácida: a acidez vem da fermentação lática e entrega aquele frescor que faz salivar e pede o próximo gole. Com 15 IBU, o amargor é praticamente ausente — quem não curte cerveja amarga costuma gostar muito do estilo. Os 6,3% ABV dão mais corpo do que a leveza da acidez sugere, então ela aguenta bem a companhia de frutas fortes. Pitaya, framboesa e limão somam cor, aroma e uma segunda camada de acidez por cima da primeira.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou taça de vinho branco. A boca mais fechada da taça concentra o aroma das frutas — num copo reto você perde metade da graça. Se sair muito gelada da geladeira, espere dois minutos: a acidez fica mais redonda conforme a temperatura sobe.</p>\n<h2>Harmoniza com</h2>\n<p>A acidez corta gordura e limpa o paladar, o que faz dela uma boa parceira de mesa. Vai bem com ceviche, peixes grelhados, queijos frescos de cabra, saladas com vinagrete e comida asiática levemente apimentada. Na sobremesa, doces de frutas vermelhas conversam direto com a framboesa. E como aperitivo funciona muito bem, porque abre o apetite.</p>"
+    },
+    "im-sour-baby": {
+      "slug": "im-sour-baby",
+      "kicker": "SAZONAL · 2019",
+      "name": "I'M SOUR, BABY",
+      "meta": "SOUR · 6,3% ABV · 14 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-im-sour-baby.png.webp",
+      "imageAlt": "im sour baby",
+      "description": "<p>Olha, o MARSHMAALOOOOOW!</p>\n<p>Oi? Como assim? É isso, freguesia. Um toque especial pra transformar o que já era bom em algo de outro mundo! A I’m Sour, Baby é uma variação da nossa I’m Sour. Uma cerveja levemente ácida, refrescante e com bastante fruta: o visual da pitaya e o sabor e aroma da goiaba. Agora junte a isso o dulçor e a cremosidade do marshmallow! Um fenômeno que já chegou ganhando medalha de ouro no Mondial de La Bière e que fez a cabeça de todo mundo. Vem, vem, freguesia. Pitaya + Goiaba + Marshmallow. Você vai curtir. E se não curtir, I’M SOUR BABY!</p>",
+      "specs": "<p><strong>Maltes:</strong> cevada e trigo em flocos<br><strong>Extras:</strong> pitaya, goiaba e marshmallow<br><strong>Lançamento:</strong> 2019</p>",
+      "buttons": [
+        {
+          "label": "COMPRAR — LATA 473ML",
+          "href": "/produto/im-sour-baby-473ml-6-un/"
+        }
+      ],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Sour é a cerveja ácida de fermentação lática — frescor, acidez que faz salivar e amargor quase nulo, aqui em 14 IBU. Os 6,3% ABV dão corpo para segurar as frutas sem que a cerveja fique rala. O que muda nesta versão é o marshmallow, que entra junto com pitaya e goiaba e traz uma doçura que arredonda a acidez. É o tipo de sour mais aveludada, feita para quem gosta do azedinho mas quer um contraponto doce.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou taça de vinho branco. A boca fechada da taça segura o aroma das frutas e do marshmallow. Deixe descansar um ou dois minutos depois de servir: com a temperatura subindo um pouco, o lado doce aparece melhor.</p>\n<h2>Harmoniza com</h2>\n<p>O jogo entre doce e ácido abre espaço para a sobremesa: frutas vermelhas, cheesecake, torta de frutas e sorvete de creme. No salgado, funciona com queijos frescos, peixes grelhados e comida asiática agridoce. Se for servir como aperitivo, ela também segura bem essa função.</p>"
+    },
+    "mandarine-dream": {
+      "slug": "mandarine-dream",
+      "kicker": "SAZONAL · 2018",
+      "name": "MANDARINE DREAM",
+      "meta": "NEW ENGLAND PALE ALE · 5,5% ABV · 35 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-mandarine-dream.png.webp",
+      "imageAlt": "mandarine dream",
+      "description": "<p>It’s a dream.</p>\n<p>Uma sucessão de imagens, pensamentos e emoções que passam pela mente enquanto dormimos. Passado, presente e futuro unidos em criações infinitas do nosso inconsciente, transformando o impossível em possível. O que nos mantém vivos e nos move todos os dias a mudar o status quo. Nos dá força e criatividade pra fazer o diferente.</p>\n<p>Mandarine Dream é uma New England APA com o lúpulo alemão Mandarina Bavaria. Sim, um estilo americano com toque germânico. Tangerina, tropicalidade e frescor. Personalidade única dessa APA que vai te fazer compartilhar seus sonhos. Mas afinal, what’s your dream?</p>\n<p>Ours is Mandarine. Mandarine dream!</p>",
+      "specs": "<p><strong>Lúpulo:</strong> Mandarina Bavaria<br><strong>Lançamento:</strong> 2018</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>New England Pale Ale é a irmã leve da NE-IPA: mesma escola de lúpulo tardio e aparência turva, menos álcool e menos peso. Com 5,5% ABV e 35 IBU, a Mandarine Dream entrega aroma cítrico — a tangerina do nome dá a direção — num corpo macio que permite emendar mais de uma sem cerimônia.</p>\n<h2>Como servir</h2>\n<p>Entre 5 °C e 7 °C, em tulipa ou pint. O aroma cítrico é o coração da cerveja: sirva com colarinho e beba fresca, enquanto o lúpulo está vivo.</p>\n<h2>Harmoniza com</h2>\n<p>Peixes, frango grelhado, saladas cítricas e tacos. Sobremesas com laranja ou tangerina conversam direto com o aroma da cerveja.</p>"
+    },
+    "hop-dust": {
+      "slug": "hop-dust",
+      "kicker": "SAZONAL · 2017",
+      "name": "HOP DUST",
+      "meta": "NEW ENGLAND IPA · 7% ABV · 55 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-hop-dust.png.webp",
+      "imageAlt": "hop dust",
+      "description": "<p>HOP DUST. NEW ENGLAND IPA + LUPULIN POWDER!</p>\n<p>Imagine uma tempestade de sabores e aromas dominando o nosso universo por inteiro. Imagine o lúpulo. FROST. DUST.</p>\n<p>Temperaturas baixas que eliminam qualquer tipo de imperfeição, de oxidação. O lúpulo separado, concentrado, em powder. Lupulina. O lúpulo como lúpulo. O melhor de SIMCOE E MOSAIC. Uma tempestade de sabores e aromas intensos.</p>",
+      "specs": "<p><strong>Lúpulos:</strong> Simcoe e Mosaic LUPOMAX®<br><strong>Lançamento:</strong> 2017</p>",
+      "buttons": [
+        {
+          "label": "COMPRAR — LATA 473ML",
+          "href": "/produto/hop-dust-473ml-6-un/"
+        }
+      ],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>New England IPA, ou hazy IPA, é a IPA turva de corpo macio: o lúpulo entra tarde no processo, no whirlpool e no dry hop, o que extrai muito aroma e pouco amargor agressivo. Por isso os 55 IBU da Hop Dust não pesam como o número sugere — o corpo cremoso abraça o amargor. Com 7% ABV, ela já está no limite de cima do estilo, com bastante estrutura. Simcoe e Mosaic dividem aqui o protagonismo.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou teku. Gelada demais, a NE-IPA perde justamente o aroma que a define. E beba fresca: nenhuma cerveja envelhece tão mal quanto uma hazy IPA guardada por meses. Não estranhe a turbidez — ela é característica do estilo, não falha.</p>\n<h2>Harmoniza com</h2>\n<p>Pratos gordurosos e de sabor forte equilibram o lúpulo: hambúrguer, frango frito, costela e queijos maturados. Comida tailandesa, indiana e mexicana também combinam, porque o perfil tropical do lúpulo conversa com o tempero. Para fechar, uma sobremesa com manga ou maracujá faz ponte direta com o dry hop.</p>"
+    },
+    "milky-way-ipa": {
+      "slug": "milky-way-ipa",
+      "kicker": "SAZONAL · LATA 350ML",
+      "name": "MILKY WAY IPA",
+      "meta": "MILKSHAKE IPA · 6,5% ABV · 60 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-milky-way-ipa-350.png",
+      "imageAlt": "milky way ipa",
+      "description": "<p>Em uma galáxia não tão distante, três macacos mergulharam em uma missão: salvar nosso lar com ideias, com sonhos. Seu dever era simples, ir além da mesmice e criar algo intenso, saboroso e aromático. SHOWTIME!</p>\n<p>A Milky Way IPA é o resultado dessa busca! Uma New England IPA com Lactose e Baunilha. A Lactose insere cremosidade e dulçor equilibrado, enquanto a Baunilha traz um aroma inconfundível. Pra deixar essa cerveja ainda mais completa, traz o perfil cítrico e frutado dos lúpulos Columbus e Galaxy. Houston, we DON’T have a problem!</p>",
+      "specs": "<p><strong>Lúpulos:</strong> Columbus e Galaxy<br><strong>Extras:</strong> lactose e baunilha<br><strong>Lançamento:</strong> 2017</p>",
+      "buttons": [
+        {
+          "label": "COMPRAR CAIXA COM 12",
+          "href": "/produto/milky-way-ipa-350ml-12-un/"
+        }
+      ],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Milkshake IPA é uma IPA turva com lactose: o açúcar do leite não fermenta, então ele permanece na cerveja e entrega corpo, sedosidade e uma doçura leve — daí a comparação com milkshake. Isso muda a forma como o amargor é percebido: os 60 IBU não chegam afiados, chegam envolvidos pela textura. Com 6,5% ABV, ela tem estrutura de IPA com sensação de sobremesa. Columbus e Galaxy dão o lado cítrico e frutado, e a baunilha completa a conta.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou teku. Muito gelada, a lactose e a baunilha somem — é nessa faixa que a textura cremosa aparece. Beba fresca, porque o aroma de lúpulo é a primeira coisa que se perde. E uma observação prática: leva lactose, então não serve para intolerantes.</p>\n<h2>Harmoniza com</h2>\n<p>É uma cerveja que puxa naturalmente para a sobremesa: torta de frutas, cheesecake, sorvete de creme e doces com baunilha. No salgado, encara pratos gordurosos e defumados, como costela e frango frito. Queijos cremosos também vão bem, porque a textura de um encontra a do outro.</p>"
+    },
+    "paranoid-about-coconut-and-coffee": {
+      "slug": "paranoid-about-coconut-and-coffee",
+      "kicker": "SAZONAL · 2020",
+      "name": "PARANOID ABOUT COCONUT AND COFFEE",
+      "meta": "IMPERIAL PASTRY STOUT · 12% ABV · 33 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-paranoid-about-coconut-and-coffee-1.png.webp",
+      "imageAlt": "paranoid about coconut and coffee",
+      "description": "<p>Eu queria ser uma garrafa. Am I PARANOID? Acho que não. A verdade é que eu queria mesmo ser uma Imperial Stout porrada. Diferentes camadas de sabor e complexidade em um corpo alto. Torrado, chocolate e caramelo. Cacau, avelã e nozes. Sabe o que mais? COCO E CAFÉ!</p>",
+      "specs": "<p><strong>Extras:</strong> chocolate 100%, coco tostado, café, avelãs e nozes<br><strong>Lançamento:</strong> 2020</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Imperial Pastry Stout é a Imperial Stout puxada para o lado da confeitaria: mesma base densa de malte, com adições que empurram a cerveja para o território de sobremesa. Os 12% ABV colocam ela no patamar de destilado, e os 33 IBU só equilibram o dulçor do malte, sem brigar com ele. Quem manda aqui são o café e o coco: o café — o Blend Oro do Café Tassinari, torrado na mesma semana em que vai para a cerveja — dá um aroma que se reconhece de longe, e o coco tostado responde com doçura e uma textura macia que segura tudo. Avelã e nozes fecham por baixo. É cerveja de taça pequena e sessão longa.</p>\n<h2>Como servir</h2>\n<p>Entre 10 °C e 12 °C. Cerveja gelada demais fecha justamente as camadas que uma pastry stout tem de sobra — e aqui elas são muitas. Taça snifter ou tulipa pequena, servindo pouco por vez e deixando evoluir na taça.</p>\n<h2>Harmoniza com</h2>\n<p>Sobremesa é o caminho natural: brigadeiro, brownie, torta de coco, doce de leite e sorvete de creme. No salgado, acompanha carnes defumadas, barbecue e queijos azuis. Também vale como digestivo, no lugar do cafezinho depois do jantar.</p>"
+    },
+    "paranoid-about-coconut": {
+      "slug": "paranoid-about-coconut",
+      "kicker": "SAZONAL · 2019",
+      "name": "PARANOID ABOUT COCONUT",
+      "meta": "IMPERIAL PASTRY STOUT · 12% ABV · 33 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-paranoid-about-coconut-1.png.webp",
+      "imageAlt": "paranoid about coconut",
+      "description": "<p>Eu queria ser uma garrafa. Am I PARANOID? Acho que não. A verdade é que eu queria mesmo ser uma Imperial Stout porrada. A primeira da minha família. Diferentes camadas de sabor e complexidade em um corpo alto. Torrado, chocolate e caramelo. Cacau, avelã e nozes. Sabe o que mais? COCO!</p>",
+      "specs": "<p><strong>Extras:</strong> chocolate 100%, coco tostado, avelãs e nozes<br><strong>Lançamento:</strong> 2019</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Imperial Pastry Stout é a Imperial Stout levada para o lado da confeitaria: base densa de maltes torrados, com adições que empurram a cerveja para o território de sobremesa. Os 12% ABV a colocam no patamar de destilado e os 33 IBU apenas equilibram o dulçor do malte. O coco tostado é o que muda tudo aqui: ele traz um lado oleoso e adocicado que conversa direto com o chocolate 100%, as avelãs e as nozes. É cerveja de taça pequena e sessão longa.</p>\n<h2>Como servir</h2>\n<p>Entre 10 °C e 12 °C. Gelada demais, ela fecha as camadas que fazem uma pastry stout valer a pena. Taça snifter ou tulipa pequena, servindo pouco por vez: a cada grau a mais aparece algo novo.</p>\n<h2>Harmoniza com</h2>\n<p>Puxa naturalmente para a sobremesa: torta de coco, brownie, brigadeiro, doce de leite e sorvete de creme. No salgado, encara carnes defumadas, barbecue e queijos azuis. E funciona muito bem sozinha, como digestivo depois do jantar.</p>"
+    },
+    "paranoid-about-vanilla": {
+      "slug": "paranoid-about-vanilla",
+      "kicker": "SAZONAL · 2019",
+      "name": "PARANOID ABOUT VANILLA",
+      "meta": "IMPERIAL STOUT · 12% ABV · 33 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-paranoid-about-vanilla-1.png.webp",
+      "imageAlt": "paranoid about vanilla",
+      "description": "<p>Eu queria ser uma garrafa. Am I PARANOID? Acho que não. A verdade é que eu queria mesmo ser uma Imperial Stout porrada. Diferentes camadas de sabor e complexidade em um corpo alto. Torrado, chocolate e caramelo. Cacau, avelã e nozes. Sabe o que mais? BAUNILHA!</p>",
+      "specs": "<p><strong>Extras:</strong> baunilha, chocolate e caramelo<br><strong>Lançamento:</strong> 2019</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Imperial Stout é o extremo do lado escuro: maltes torrados que trazem café, chocolate amargo e caramelo, num corpo denso e com final aquecido. Os 12% ABV colocam a Paranoid no território de destilado — cerveja de taça pequena e sessão longa. A baunilha suaviza a torra e adiciona doçura, arredondando as arestas que uma Imperial Stout costuma ter. Os 33 IBU equilibram o dulçor do malte sem competir com ele.</p>\n<h2>Como servir</h2>\n<p>Entre 10 °C e 12 °C — sim, mais quente do que você imagina. Cerveja gelada demais esconde justamente a complexidade que ela tem de sobra. Taça snifter ou tulipa pequena. Sirva pouco por vez e deixe evoluir na taça: em Imperial Stout, cada grau a mais revela uma camada nova.</p>\n<h2>Harmoniza com</h2>\n<p>Sobremesas de chocolate amargo, brownie, doce de leite e sorvete de creme — vale fazer um float com uma bola dentro da taça. No salgado, encara carnes defumadas, barbecue e queijos azuis. Também funciona sozinha, como digestivo depois do jantar.</p>"
+    },
+    "paranoid-about-popcorn": {
+      "slug": "paranoid-about-popcorn",
+      "kicker": "SAZONAL · 2019",
+      "name": "PARANOID ABOUT POPCORN",
+      "meta": "IMPERIAL STOUT · 12% ABV · 33 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-paranoid-about-popcorn-1.png.webp",
+      "imageAlt": "paranoid about popcorn",
+      "description": "<p>Eu queria ser uma garrafa. Am I PARANOID? Acho que não. A verdade é que eu queria mesmo ser uma Imperial Stout porrada. A primeira da minha família. Diferentes camadas de sabor e complexidade em um corpo alto. Torrado, chocolate e caramelo. Cacau, avelã e nozes. Sabe o que mais? PIPOCA!</p>",
+      "specs": "<p><strong>Extras:</strong> pipoca, chocolate e caramelo<br><strong>Lançamento:</strong> 2019</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Imperial Stout é o extremo do lado escuro: corpo denso, final aquecido e uma base de malte que entrega chocolate e caramelo. Os 12% ABV colocam a Paranoid no território de destilado — cerveja de taça pequena e sessão longa. Os 33 IBU equilibram o dulçor do malte sem competir com ele, que é o ponto de virada entre uma stout pesada e uma stout redonda. Mas o que faz essa aqui ser ela mesma é a pipoca: doce e salgada ao mesmo tempo, com um aroma que você reconhece antes do primeiro gole e não confunde com nenhuma outra cerveja.</p>\n<h2>Como servir</h2>\n<p>Entre 10 °C e 12 °C — sim, bem mais quente do que você imagina. Cerveja gelada demais esconde justamente a complexidade que ela tem de sobra. Taça snifter ou tulipa pequena, servindo pouco por vez: a cada grau a mais aparece uma camada nova.</p>\n<h2>Harmoniza com</h2>\n<p>Sobremesas de chocolate amargo, brownie, doce de leite e sorvete de creme — o float com uma bola dentro da taça é quase obrigatório. No salgado, encara carnes defumadas, barbecue e queijos azuis. E funciona sozinha, como digestivo depois do jantar.</p>\n<h2>Premiações</h2>\n<ul class=\"tmb-premios\">\n<li>2025 — Medalha de Ouro no Mondial de La Bière</li>\n<li>2019 — Terceiro Lugar no Mondial de La Bière (Votação do Público)</li>\n</ul>"
+    },
+    "strawberry-milky-way-ipa": {
+      "slug": "strawberry-milky-way-ipa",
+      "kicker": "SAZONAL · 2018",
+      "name": "STRAWBERRY MILKY WAY IPA",
+      "meta": "MILKSHAKE IPA · 6,5% ABV · 60 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-strawberry-milky-way-ipa.png.webp",
+      "imageAlt": "strawberry milky way ipa",
+      "description": "<p>Em uma galáxia não tão distante, três macacos mergulharam em uma missão: salvar nosso lar com ideias, com sonhos. Seu dever era simples, ir além da mesmice e criar algo intenso, saboroso e aromático. E eles continuam nessa procura…</p>\n<p>A Strawberry Milky Way IPA é resultado dessa busca! Uma New England IPA com Lactose, Baunilha e Morango. A Lactose insere cremosidade e dulçor equilibrado, a Baunilha traz um aroma inconfundível e o Morango um toque especial. Também um perfil cítrico e frutado dos lúpulos Columbus e Galaxy. Houston, we DON’T have a problem!</p>",
+      "specs": "<p><strong>Lúpulos:</strong> Columbus e Galaxy<br><strong>Extras:</strong> lactose, baunilha e morango<br><strong>Lançamento:</strong> 2018</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Milkshake IPA é a IPA cremosa: leva lactose, que não fermenta e deixa corpo aveludado e um leve dulçor, transformando a fruta num verdadeiro creme lupulado. Os 60 IBU existem, mas afundam na maciez. Com 6,5% ABV, a Strawberry Milky Way entrega a experiência de sobremesa que o nome promete — com morango no papel principal.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou teku. A cremosidade aparece melhor fora do gelado extremo. Beba fresca: a fruta e o lúpulo são os primeiros a ir embora com o tempo.</p>\n<h2>Harmoniza com</h2>\n<p>Sobremesas com morango e chocolate branco, cheesecake e panquecas. No salgado, frango frito cria aquele contraste doce-salgado-crocante que dá certo.</p>"
+    },
+    "tropicalism": {
+      "slug": "tropicalism",
+      "kicker": "SAZONAL · 2021",
+      "name": "TROPICALISM",
+      "meta": "FRUITED BERLINER WEISSE · 4,7% ABV · 5 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-tropicalism.png.webp",
+      "imageAlt": "tropicalism",
+      "description": "<p>Prepare-se para embarcar em uma jornada sensorial que vai levar você diretamente a um paraíso tropical! Uma explosão de sabores exóticos em cada gole, que vai te proporcionar uma experiência única, suculenta e refrescante!</p>\n<p>A combinação perfeita de maracujá suculento, manga doce e coco cremoso cria um equilíbrio harmonioso de sabores que dançam no seu paladar e despertam seus sentidos!</p>\n<p>Tá pronto para essa experiência tropicalizante?</p>",
+      "specs": "<p><strong>Extras:</strong> maracujá, manga e coco tostado<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Berliner Weisse é a sour de trigo alemã, leve e ácida por natureza. Na Tropicalism, ela vira passaporte pro trópico: frutas por cima da base láctica, 4,7% ABV e só 5 IBU — zero briga de amargor, só frescor e fruta. É praticamente um refresco fermentado, no melhor sentido.</p>\n<h2>Como servir</h2>\n<p>Bem gelada, entre 4 °C e 6 °C, em taça de vinho branco ou tulipa. Cerveja de calor: sirva gelada, beba fresca e deixe a fruta dominar o aroma.</p>\n<h2>Harmoniza com</h2>\n<p>Comida de verão: ceviche, poke, saladas com frutas e queijo fresco. Nas sobremesas, sorbet e pavê de frutas tropicais espelham a cerveja.</p>"
+    },
+    "peter-the-bitter": {
+      "slug": "peter-the-bitter",
+      "kicker": "SAZONAL · 2024",
+      "name": "PETER, THE BITTER",
+      "meta": "EXTRA SPECIAL BITTER · 6% ABV · 35 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-peter-the-bitter.png.webp",
+      "imageAlt": "peter the bitter",
+      "description": "<p>Nossas marcas sempre foram inovação e experimentação. Mas isso não significa que também não apreciamos os clássicos! E pela primeira vez, resolvemos produzir um dos mais clássicos estilos ingleses: a ESB! Feita com os lúpulos ingleses Challenger e East Kent Goldings, essa cerveja possui uma base maltada complexa, que traz notas de pão torrado, caramelo e toffee, com um amargor equilibrado que pede o próximo gole.</p>\n<p>Grab your pint and let’s celebrate, mate!</p>",
+      "specs": "<p><strong>Lúpulos:</strong> Challenger e East Kent Goldings<br><strong>Lançamento:</strong> 2024</p>",
+      "buttons": [
+        {
+          "label": "COMPRAR — LATA 473ML",
+          "href": "/produto/peter-the-bitter-473ml-6-un/"
+        }
+      ],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Extra Special Bitter é um clássico inglês e, apesar do nome, não é uma cerveja amarga no sentido moderno: bitter era só como os ingleses chamavam a ale lupulada, em oposição às mais maltadas. Os 35 IBU confirmam isso — o amargor é moderado, e quem manda no copo é o malte. Com 6% ABV, ela fica no topo da faixa do estilo, mais encorpada que uma bitter comum. Challenger e East Kent Goldings são lúpulos ingleses de raiz e trazem um caráter terroso e floral, bem diferente do perfil cítrico americano.</p>\n<h2>Como servir</h2>\n<p>Entre 8 °C e 12 °C, em pint inglesa ou taça tulipa. Sim, mais quente do que você está acostumado: é exatamente assim que se bebe bitter na Inglaterra, e é nessa faixa que o malte caramelo aparece. Gelada demais, ela vira uma cerveja sem graça — vale o teste de servir e esperar dois minutos.</p>\n<h2>Harmoniza com</h2>\n<p>Pede comida de pub: fish and chips, torta de carne, cordeiro, batata assada e queijos ingleses como cheddar maturado. O malte caramelo se dá muito bem com carnes assadas e molhos escuros. E por não ser pesada nem muito amarga, acompanha a refeição inteira sem cansar.</p>"
+    },
+    "double-detox": {
+      "slug": "double-detox",
+      "kicker": "SAZONAL · 2017",
+      "name": "DOUBLE DETOX",
+      "meta": "DOUBLE NE-IPA · 8,5% ABV",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-double-detox-1.png.webp",
+      "imageAlt": "double detox",
+      "description": "<p>Explosão! Double feelings! Double impact! A última edição da DETOX chega como um estrondo. Depois de DETOX YOUR MIND e GALAXY DETOX, nossa linha colab com nossos amigos da 2cabeças chega ao seu capítulo final. Já te fizemos repensar tudo que sabia sobre IPAs e limpar sua cabeça. Já te mandamos pra outra galáxia. Agora é a vez de jogar tudo pro alto, apertar o play, detonar!</p>\n<p>Uma New England DOUBLE IPA. Carga de lúpulos amplificada. Nova seleção: Citra, Galaxy, Mosaic, Simcoe e Columbus. Aroma ao quadrado, sabor dobrado. Sim, DETOX diz adeus, mas antes vai marcar sua vida, sua cabeça, sua boca. Hasta la vista! BOOOOOM!</p>",
+      "specs": "<p><strong>Lúpulos:</strong> Citra, Galaxy, Mosaic, Simcoe e Columbus<br><strong>Lançamento:</strong> 2017</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Double New England IPA é a versão em dose dupla da IPA turva: mais lúpulo, mais corpo e 8,5% ABV, mantendo a maciez e o aroma tropical que definem o estilo. A Double Detox pega a receita da Detox e dobra a aposta — intensidade de cerveja grande com a bebida macia típica das NE-IPA.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em tulipa ou teku. O álcool esconde bem — respeite os 8,5%. Beba fresca: o aroma tropical é o primeiro a partir com o tempo.</p>\n<h2>Harmoniza com</h2>\n<p>Pratos intensos: hambúrguer artesanal, barbecue, curry e queijos maturados. Sobremesas de manga e maracujá espelham o aroma do lúpulo.</p>"
+    },
+    "galaxy-detox": {
+      "slug": "galaxy-detox",
+      "kicker": "SAZONAL · LATA 350ML",
+      "name": "GALAXY DETOX",
+      "meta": "NEW ENGLAND IPA · 6,5% ABV · 60 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-hq4-galaxy-detox-350.png",
+      "imageAlt": "galaxy detox",
+      "description": "<p>A DETOX tá de volta e com um toque especial, espacial: GALAXY DETOX. Isso sim é uma viagem que vai mudar a sua cabeça! Um lúpulo versátil que assume o papel central nessa DETOX.</p>\n<p>O GALAXY transborda aromas frutados e cítricos com destaque para maracujá e pêssego. Os aromas tropicais vão dominar no nariz!</p>",
+      "specs": "<p><strong>Lúpulo:</strong> Galaxy<br><strong>Lançamento:</strong> 2017</p>",
+      "buttons": [
+        {
+          "label": "COMPRAR CAIXA COM 12",
+          "href": "/produto/galaxy-detox-350ml-12-un/"
+        }
+      ],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>New England IPA — ou hazy IPA — é a IPA turva e macia que virou febre. A diferença para a IPA tradicional está no processo: o lúpulo entra tarde, no whirlpool e no dry hop, extraindo aroma sem extrair tanto amargor. O resultado é uma cerveja que cheira a suco de fruta tropical e desce redonda, mesmo com 60 IBU no papel. Aqui o lúpulo Galaxy assume sozinho o papel principal, e os 6,5% ABV dão o corpo cremoso característico do estilo.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou teku. NE-IPA é cerveja de aroma: temperatura muito baixa fecha o buquê justamente onde ela brilha. E beba fresca — a New England é a IPA mais perecível que existe, o aroma de lúpulo vai embora com o tempo. A turbidez faz parte do estilo, não é defeito.</p>\n<h2>Harmoniza com</h2>\n<p>Comida com pegada tropical ou apimentada: tacos de peixe, ceviche, frango grelhado com limão, comida tailandesa. Queijos frescos e cremosos equilibram bem o amargor. E é uma das melhores parceiras de petisco frito — a carbonatação limpa o paladar entre uma mordida e outra.</p>"
+    },
+    "al-mare": {
+      "slug": "al-mare",
+      "kicker": "GOURMET · 2019",
+      "name": "AL MARE",
+      "meta": "GOSE GOURMET · 4,6% ABV · 8 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-al-mare.png.webp",
+      "imageAlt": "Página Al Mare — foto",
+      "description": "<p>Gose com limão, ostras e tinta de lula. A linha Gose Gourmet é a nossa cozinha experimental: releituras gastronômicas em forma de cerveja, com a acidez e o toque salgado clássicos do estilo.</p>",
+      "specs": "<p><strong>Extras:</strong> limão, ostras e tinta de lula<br><strong>Lançamento:</strong> 2019</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Gose é um estilo alemão antigo e bem peculiar: cerveja de trigo, levemente ácida e salgada. O sal, que soa estranho no papel, é exatamente o que faz dela uma das cervejas mais gastronômicas que existem. Com 8 IBU não há amargor para atrapalhar, e os 4,6% ABV deixam tudo leve. Nesta versão da linha Gourmet, limão, ostras e tinta de lula levam o conceito para o mar — uma leitura direta do lado salino do estilo.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou taça de vinho branco. A taça concentra o aroma, que numa Gose é discreto por natureza. Sirva à mesa, junto com o prato: essa cerveja foi pensada como acompanhamento, não como aperitivo solto.</p>\n<h2>Harmoniza com</h2>\n<p>Frutos do mar em primeiro lugar: ostras, mariscos, camarão, peixe grelhado e ceviche. O sal e o limão fazem pela cerveja o que fariam pelo prato, e a acidez corta a gordura de frituras e molhos cremosos. Arroz de frutos do mar e paella também são combinações naturais.</p>"
+    },
+    "gazpacho": {
+      "slug": "gazpacho",
+      "kicker": "GOURMET · 2018",
+      "name": "GAZPACHO",
+      "meta": "GOSE GOURMET · 4,6% ABV · 8 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-gazpacho.png.webp",
+      "imageAlt": "Página Gazpacho — foto",
+      "description": "<p>HOOOOOOLAAAA! Que tal? Direto da Espanha chega a ideia pra mais uma parceria entre Three Monkeys Beer e 2cabeças.</p>\n<p>Uma cerveja em forma de sopa. Uma sopa em forma de cerveja. O Gazpacho é um prato típico espanhol, da região da Andaluzia. Em uma releitura feita especialmente pra você Repensar Cerveja. Tomate, flor de sal e picles de pepino na… cerveja.</p>\n<p>Uma Gose com corpo leve, acidez marcante e toda a refrescância de um Gazpacho transportada pra cerveja. Vaaaaamooooo, GAZPACHO!</p>",
+      "specs": "<p><strong>Collab:</strong> 2cabeças<br><strong>Extras:</strong> tomate, flor de sal e picles de pepino<br><strong>Lançamento:</strong> 2018</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Gose é a sour alemã histórica feita com sal e coentro: acidez láctica, corpo leve e um final salino que abre o apetite. Na linha gastronômica, essa combinação vira ferramenta de cozinha — os 4,6% ABV e 8 IBU deixam a cerveja leve e quase sem amargor, com o sal fazendo o papel que faz num bom prato: realçar tudo.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça de vinho branco. O nome não é por acaso: sirva como serviria um vinho pra acompanhar a refeição. O toque salino fica mais evidente na temperatura certa.</p>\n<h2>Harmoniza com</h2>\n<p>Nasceu pra mesa: frutos do mar, saladas com tomate, pratos frescos de verão — a inspiração no gazpacho espanhol diz a que veio. Ostras com essa cerveja são um clássico instantâneo.</p>"
+    },
+    "honey-dijon": {
+      "slug": "honey-dijon",
+      "kicker": "GOURMET · 2019",
+      "name": "HONEY DIJON",
+      "meta": "GOSE GOURMET · 4,6% ABV · 8 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-honey-dijon.png.webp",
+      "imageAlt": "Página Honey Dijon — foto",
+      "description": "<p>Gose com mostarda e mel. A linha Gose Gourmet é a nossa cozinha experimental: releituras gastronômicas em forma de cerveja, com a acidez e o toque salgado clássicos do estilo.</p>",
+      "specs": "<p><strong>Extras:</strong> mostarda e mel<br><strong>Lançamento:</strong> 2019</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Gose é um estilo alemão antigo e bem peculiar: cerveja de trigo, levemente ácida e — a parte que surpreende quem prova pela primeira vez — salgada. Essa combinação de acidez e sal é o que a torna tão gastronômica, porque funciona como tempero na mesa. Os 8 IBU deixam o amargor fora da equação e os 4,6% ABV mantêm tudo leve. Nesta versão da linha Gourmet, mostarda e mel entram como extras, num contraste direto entre picante e doce.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou taça de vinho branco. A taça ajuda a concentrar o aroma, que numa Gose é discreto e some fácil em copo reto. Sirva junto com a comida, não antes: essa cerveja foi feita para estar à mesa.</p>\n<h2>Harmoniza com</h2>\n<p>A dupla acidez e sal pede exatamente o que você imagina: carnes assadas, salsichas, pretzel, queijos e sanduíches. O par mostarda e mel conversa direto com carne de porco, linguiça e frango grelhado. Também vai bem com frituras, porque limpa o paladar entre uma mordida e outra.</p>"
+    },
+    "kiro-sour": {
+      "slug": "kiro-sour",
+      "kicker": "GOURMET · 2019",
+      "name": "KIRO SOUR",
+      "meta": "SPICED SOUR · 4,6% ABV · 8 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-kiro-sour.png.webp",
+      "imageAlt": "Página Kiro Sour — foto",
+      "description": "<p>Uma Spiced Sour da nossa linha gastronômica: temperos e acidez na medida pra acompanhar a comida — e o papo.</p>",
+      "specs": "<p><strong>Lançamento:</strong> 2019</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Spiced Sour é cerveja ácida com especiarias. A acidez vem da fermentação lática e entrega aquele frescor que faz salivar; as especiarias entram por cima, dando camadas de aroma sem pesar. Com 8 IBU, o amargor é praticamente ausente — quem não curte cerveja amarga costuma se dar muito bem aqui. E os 4,6% ABV mantêm ela leve o suficiente pra durar a refeição inteira.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou taça de vinho branco. A boca mais fechada concentra os aromas das especiarias — num copo americano você perde metade da graça. Se estiver muito gelada, deixe descansar dois minutos: a acidez fica mais redonda conforme a temperatura sobe.</p>\n<h2>Harmoniza com</h2>\n<p>A acidez corta gordura e limpa o paladar, o que torna a Kiro Sour uma parceira e tanto à mesa. Vai bem com ceviche, peixes grelhados, queijos frescos de cabra, saladas com vinagrete e comida asiática levemente apimentada. Também funciona como aperitivo antes da refeição, justamente por abrir o apetite.</p>"
+    },
+    "oriental": {
+      "slug": "oriental",
+      "kicker": "GOURMET · 2019",
+      "name": "ORIENTAL",
+      "meta": "GOSE GOURMET · 4,6% ABV · 8 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-oriental.png.webp",
+      "imageAlt": "Página Oriental — foto",
+      "description": "<p>Gose com shoyu, gengibre e wasabi. A linha Gose Gourmet é a nossa cozinha experimental: releituras gastronômicas em forma de cerveja, com a acidez e o toque salgado clássicos do estilo.</p>",
+      "specs": "<p><strong>Extras:</strong> shoyu, gengibre e wasabi<br><strong>Lançamento:</strong> 2019</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Gose é um estilo alemão antigo e bem peculiar: cerveja de trigo, levemente ácida e salgada. É essa combinação que a torna tão gastronômica — na prática, ela se comporta mais como tempero do que como bebida de acompanhamento. Com 8 IBU, o amargor sai de cena, e os 4,6% ABV deixam o conjunto leve. Nesta versão da linha Gourmet, shoyu, gengibre e wasabi levam a cerveja direto para a cozinha asiática.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou taça de vinho branco. A taça concentra o aroma, que numa Gose é sutil e se perde em copo reto. E sirva junto com a comida: é aí que uma Gose Gourmet mostra a que veio.</p>\n<h2>Harmoniza com</h2>\n<p>O caminho natural é a mesa asiática: sushi, sashimi, temaki, yakisoba, gyoza e pratos com molho shoyu. O gengibre e o wasabi conversam com peixe cru e frutos do mar como poucos estilos conseguem. Também funciona com frango grelhado e legumes salteados.</p>"
+    },
+    "thai-curry": {
+      "slug": "thai-curry",
+      "kicker": "GOURMET · 2019",
+      "name": "THAI CURRY",
+      "meta": "GOSE GOURMET · 4,6% ABV · 8 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-thai-curry.png.webp",
+      "imageAlt": "Página Thai Curry — foto",
+      "description": "<p>Gose com tempero curry e leite de coco. A linha Gose Gourmet é a nossa cozinha experimental: releituras gastronômicas em forma de cerveja, com a acidez e o toque salgado clássicos do estilo.</p>",
+      "specs": "<p><strong>Extras:</strong> curry e leite de coco<br><strong>Lançamento:</strong> 2019</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Gose é um estilo alemão antigo: cerveja de trigo, levemente ácida e salgada. É essa dupla acidez e sal que a torna tão gastronômica, quase um tempero líquido à mesa. Os 8 IBU tiram o amargor da conta e os 4,6% ABV mantêm o corpo leve, o que ajuda a encarar pratos temperados sem competir com eles. Aqui, curry e leite de coco puxam a cerveja para a cozinha tailandesa.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou taça de vinho branco. A taça concentra o aroma das especiarias, que num copo reto praticamente desaparece. Sirva junto com a comida — é assim que uma Gose Gourmet faz mais sentido.</p>\n<h2>Harmoniza com</h2>\n<p>O par óbvio é a comida tailandesa: curries, pad thai, frango ao leite de coco e sopas apimentadas. O leite de coco na cerveja abranda a pimenta do prato, e a acidez limpa o paladar entre uma garfada e outra. Também vai bem com frango grelhado, camarão e legumes salteados.</p>"
+    },
+    "bff21-summertime-in-rio": {
+      "slug": "bff21-summertime-in-rio",
+      "kicker": "COLLAB · 2021",
+      "name": "SUMMERTIME IN RIO",
+      "meta": "TRIPLE NE-IPA · 11% ABV",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-bff21-summertime-in-rio.png.webp",
+      "imageAlt": "Página BFF21 - Summertime in Rio — foto",
+      "description": "<p>Collab com a Spartacus Brewing para o BFF21. Uma Triple New England IPA inspirada no picolé creamsicle: óleos essenciais de laranja e um dry hop de Comet e El Dorado para um resultado cremoso, cítrico e tropical. Intensa e perigosamente fácil de beber — o suco puro do verão carioca!</p>",
+      "specs": "<p><strong>Collab:</strong> Spartacus Brewing (BFF21)<br><strong>Lúpulos:</strong> Comet e El Dorado (dry hop)<br><strong>Extras:</strong> óleos essenciais de laranja<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Triple New England IPA é o topo da escala das hazy IPAs: mais malte, mais lúpulo e muito mais álcool que uma NE-IPA comum. O processo é o mesmo — lúpulo tarde, no whirlpool e no dry hop, extraindo aroma sem amargor agressivo —, mas tudo em dose dobrada. Com 11% ABV, é cerveja de taça pequena e gole devagar, mesmo que a textura cremosa engane. O dry hop de Comet e El Dorado, somado aos óleos essenciais de laranja, é o que constrói o perfil cítrico e tropical.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou teku. Temperatura muito baixa fecha o aroma, que aqui é praticamente o ponto inteiro da cerveja. E beba fresca: uma triple NE-IPA guardada por meses perde exatamente o que a torna especial. Sirva pouco por vez — com 11% ABV, ela merece respeito.</p>\n<h2>Harmoniza com</h2>\n<p>Pede pratos de sabor forte e gordura para equilibrar: hambúrguer, costela, queijos maturados e comida tailandesa ou indiana. Sobremesas cítricas e cremosas fazem ponte com o perfil de laranja. E, por ser tão intensa, ela também se sustenta sozinha no fim da noite.</p>"
+    },
+    "coffee-zest": {
+      "slug": "coffee-zest",
+      "kicker": "COLLAB",
+      "name": "COFFEE ZEST",
+      "meta": "SOUR · 7% ABV · 7 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-coffee-zest.png.webp",
+      "imageAlt": "Página Coffee Zest — foto",
+      "description": "<p>Há quem diga o contrário, mas no nosso caso, quando paulistas e cariocas se juntam, sai cerveja! Eis aqui a Coffee Zest. Cerveja Sour com 7% de ABV, confere notas cítricas e láticas da adição de zest e suco de limão tahiti e fermentação por lactobacilos.</p>\n<p>Com a adição de café e cáscara, notas de café de baixa torra misturam-se à toda complexidade dessa cerveja. Bora fazer essa conexão de sabores?</p>",
+      "specs": "<p><strong>Extras:</strong> zest e suco de limão tahiti, café e cáscara<br><strong>Lúpulo:</strong> Zeus<br><strong>Lançamento:</strong> —</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Sour com café é um encontro improvável que funciona: a acidez láctica da cerveja encontra a acidez natural e o aroma torrado do café, criando camadas que lembram um café especial gelado. Com 7% ABV e apenas 7 IBU, a Coffee Zest aposta tudo no contraste ácido-café, sem amargor de lúpulo no caminho.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa. O aroma de café abre conforme a cerveja ganha temperatura — não sirva gelada demais. Gire a taça e sinta o café antes do primeiro gole.</p>\n<h2>Harmoniza com</h2>\n<p>Sobremesas de chocolate e caramelo, tiramisù, pães de fermentação natural com manteiga. No brunch, acompanha do doce ao salgado — pense nela como um café especial com corpo de cerveja.</p>"
+    },
+    "copacabana": {
+      "slug": "copacabana",
+      "kicker": "COLLAB · 2016",
+      "name": "COPACABANA",
+      "meta": "OATMEAL PALE ALE · 6% ABV · 33 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-copacabana.png.webp",
+      "imageAlt": "Página Copacabana — foto",
+      "description": "<p>Pensem numa American Pale Ale… Agora considerem que ela leva 20% de aveia. Eis que surge a nossa Oatmeal Pale Ale, ou melhor, OPA. Pegamos 3 de tudo, 3 grãos e 3 lúpulos. A idéia veio de juntar os ingredientes das primeiras receitas de cada cervejaria.</p>\n<p>A aveia impacta em novas dimensões no sabor esperado de uma APA, trazendo um dulçor suave com leves notas de nozes. O caracter do malte é bem balanceado com os lúpulos americanos usados, que trazem notas de frutas tropicais no aroma. O final é cítrico e cremoso.</p>",
+      "specs": "<p><strong>Collab:</strong> CARIOCΔ brewing co.<br><strong>Lançamento:</strong> 2016</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Oatmeal Pale Ale é uma American Pale Ale com aveia na receita — e a aveia muda tudo no corpo: textura sedosa e macia, sem pesar. O lúpulo americano dá o tom cítrico e os 33 IBU equilibram sem agredir. Com 6% ABV, a Copacabana fica naquela zona confortável entre presença e drinkability.</p>\n<h2>Como servir</h2>\n<p>Entre 5 °C e 7 °C, em pint americano ou tulipa. A aveia deixa a espuma cremosa e persistente — sirva com colarinho de dois dedos pra liberar o aroma do lúpulo.</p>\n<h2>Harmoniza com</h2>\n<p>Hambúrguer, frango grelhado, petiscos de bar e queijos de média cura. É cerveja versátil de mesa: acompanha a refeição inteira sem cansar o paladar.</p>"
+    },
+    "copacabana-ii": {
+      "slug": "copacabana-ii",
+      "kicker": "COLLAB",
+      "name": "COPACABANA II",
+      "meta": "NE PALE ALE · 6% ABV · 66 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-copacabana-ii.png.webp",
+      "imageAlt": "Página Copacabana II — foto",
+      "description": "<p>Era uma vez um bairro chamado Copacabana. Com suas areias, sua tradição, sua orla. Seus 20% de aveia, seus lúpulos. Um novo capítulo dessa saga… A noite chegou. Apostas dobradas. Muito mais intensa. Duas vezes mais aveia! O dobro de lúpulo. 40% de aveia e o dobro de lúpulo utilizado na primeira receita. Uma cerveja muito cremosa, macia, amargor limpo e extremamente aromática.</p>",
+      "specs": "<p><strong>Collab:</strong> CARIOCΔ brewing co.<br><strong>Lançamento:</strong> —</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>New England Pale Ale é a versão de corpo médio da família hazy: mesma turbidez e mesmo perfil aromático de uma NE-IPA, com menos álcool. O uso alto de aveia é o que dá a textura — 40% da receita aqui —, criando aquela sensação macia e cremosa na boca. Os 66 IBU parecem altos no papel, mas a aveia e o método de lupulagem tardia deixam o amargor limpo em vez de agressivo. Com 6% ABV, ela fica no limite de cima de uma pale ale.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou teku. Gelada demais, o aroma de lúpulo se fecha e a cremosidade some. Beba fresca — esse é o tipo de cerveja que perde muito com o tempo de prateleira. A turbidez é característica do estilo, não defeito.</p>\n<h2>Harmoniza com</h2>\n<p>Vai bem com comida de boteco e pratos de sabor médio: hambúrguer, frango grelhado, tacos de peixe, queijos de massa mole e petiscos fritos. A cremosidade da aveia se dá bem com pratos apimentados, porque abranda a pimenta. E a carbonatação limpa o paladar entre uma mordida e outra.</p>"
+    },
+    "bff21-get-together": {
+      "slug": "bff21-get-together",
+      "kicker": "COLLAB · 2021",
+      "name": "GET TOGETHER",
+      "meta": "FRUITED SOUR · 5% ABV · 25 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-bff21-get-together.png.webp",
+      "imageAlt": "Página BFF21 - Get Together — foto",
+      "description": "<p>Collab com a Goose Island Brewhouse São Paulo para o BFF21. Uma Fruited Sour feita pra juntar todo mundo: manga e coco queimado, com dry hop de El Dorado, Azacca e HBC 472. Frutada, ácida na medida e redonda do início ao fim.</p>",
+      "specs": "<p><strong>Collab:</strong> Goose Island Brewhouse SP (BFF21)<br><strong>Lúpulos:</strong> El Dorado, Azacca e HBC 472 (dry hop)<br><strong>Extras:</strong> manga e coco queimado<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Fruited Sour é a cerveja ácida com fruta em quantidade: a acidez vem da fermentação lática e a fruta entra depois, dando cor, aroma e uma doçura que equilibra o azedinho. Com 5% ABV, o corpo é leve e a drinkability alta. Os 25 IBU são mais altos do que o normal para uma sour e vêm acompanhados de dry hop — El Dorado, Azacca e HBC 472 —, o que soma uma camada tropical de lúpulo por cima da fruta. Manga e coco queimado dão o toque final.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou taça de vinho branco. A taça concentra o aroma da fruta e do dry hop, que é onde essa cerveja se diferencia de uma sour comum. Se sair muito gelada, espere um pouco: a manga e o coco só aparecem com a temperatura subindo.</p>\n<h2>Harmoniza com</h2>\n<p>Combina com comida tropical e levemente apimentada: peixe grelhado, ceviche, camarão, tacos e frango ao curry. A acidez corta gordura, então também funciona com frituras e queijos cremosos. E a manga com coco abre espaço para sobremesas de frutas tropicais.</p>"
+    },
+    "bff21-high-spirits": {
+      "slug": "bff21-high-spirits",
+      "kicker": "COLLAB · 2021",
+      "name": "HIGH SPIRITS",
+      "meta": "DOUBLE NE-IPA · 8% ABV · 60 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-bff21-high-spirits.png.webp",
+      "imageAlt": "Página BFF21 - High Spirits — foto",
+      "description": "<p>New England Double IPA com Strata, Galaxy e Ekuanot. Collab exclusiva com a Koala San Brew para o BFF21.</p>",
+      "specs": "<p><strong>Collab:</strong> Koala San Brew (BFF21)<br><strong>Lúpulos:</strong> Strata, Galaxy e Ekuanot<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>New England Double IPA é a versão turbinada da NE-IPA: mesma turbidez, mesma explosão de lúpulo tropical, mais corpo e mais álcool. O dry hop com Strata, Galaxy e Ekuanot é o que define o aroma aqui. Os 60 IBU não pesam como o número sugere — o corpo cremoso e o residual de malte abraçam o amargor. Com 8% ABV, é cerveja pra beber devagar e prestar atenção.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou teku. NE-IPA é cerveja de aroma: temperatura muito baixa fecha o buquê justamente onde ela brilha. Beba fresca — o lúpulo é perecível, e uma Double NE-IPA guardada por meses perde exatamente o que a torna especial.</p>\n<h2>Harmoniza com</h2>\n<p>Pede pratos com gordura e sabor forte pra equilibrar o lúpulo: hambúrguer artesanal, costela, queijos maturados, comida tailandesa e indiana. Uma sobremesa com manga ou maracujá cria ponte direta com os aromas do dry hop. E, com 8% ABV, ela também se sustenta sozinha no fim da noite.</p>"
+    },
+    "new-dawn": {
+      "slug": "new-dawn",
+      "kicker": "COLLAB · 2019",
+      "name": "NEW DAWN",
+      "meta": "FRUITED BERLINER WEISSE · 4% ABV",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-new-dawn.png.webp",
+      "imageAlt": "Página New Dawn — foto",
+      "description": "<p>New Dawn. Um novo dia, um novo começo. Depois do Macaco vivenciar uma Odisseia espacial no universo Hocus Pocus, chegou a hora do Mago deles visitar a nossa casa pra um novo amanhecer. A segunda colaboração entre Three Monkeys Beer e Hocus Pocus.</p>\n<p>A gente quer trazer um pouco do que vivemos todos os dias. O sol, as montanhas, o Rio de Janeiro. E dar um toque carioca nessa viagem. Uma praia, um mate com limão (e um pouquinho de canela). Uma Berliner Weisse com o sabor das areias da nossa cidade. Uma acidez leve em conjunto com o sabor inconfundível do mate. E claro, o toque do limão pra deixar tudo mais original.</p>\n<p>E aí, pra onde será que vamos rumar depois?</p>",
+      "specs": "<p><strong>Collab:</strong> Hocus Pocus<br><strong>Extras:</strong> mate, limão e canela<br><strong>Lançamento:</strong> 2019</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Berliner Weisse é a sour de trigo alemã: leve, ácida e de baixo teor — um estilo centenário que virou tela perfeita pra frutas. Nesta versão fruited, a acidez láctica dá o frescor e a fruta dá o corpo aromático, tudo em 4% ABV. É o tipo de cerveja que surpreende quem acha que cerveja é só amargor.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça de vinho branco ou tulipa. A taça aberta mostra a cor que a fruta empresta à cerveja. Acidez fica mais redonda um grau ou dois acima da geladeira.</p>\n<h2>Harmoniza com</h2>\n<p>Sobremesas frutadas, cheesecake, queijos frescos e saladas. A acidez corta gordura com facilidade, então também encara embutidos e frituras leves.</p>"
+    },
+    "bff21-heavy-delight": {
+      "slug": "bff21-heavy-delight",
+      "kicker": "COLLAB · 2021",
+      "name": "HEAVY DELIGHT",
+      "meta": "IMPERIAL PASTRY STOUT",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-bff21-heavy-delight.png.webp",
+      "imageAlt": "Página BFF21 - Heavy Delight — foto",
+      "description": "<p>Collab do Brewing Friends Festival, o BFF21. Fizemos a RIS mais densa já produzida, com doses pesadas de café fresquinho da Williamson’s Coffee — é difícil saber se estamos abrindo a lata ou tirando um espresso.</p>",
+      "specs": "<p><strong>Collab:</strong> Salvador Brewing Co. (BFF21)<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Imperial Pastry Stout é a Imperial Stout levada para o lado da confeitaria: mesma base escura e densa de maltes torrados, com adições que empurram a cerveja para o território de sobremesa. Aqui o café entra pesado, reforçando as notas de torra que já vêm do malte. É um estilo de corpo alto e final aquecido, feito para taça pequena e sessão longa. A base é a Russian Imperial Stout, um dos estilos mais encorpados que existem.</p>\n<h2>Como servir</h2>\n<p>Entre 10 °C e 12 °C — sim, mais quente do que você imagina. Cerveja gelada demais esconde justamente a complexidade que uma stout desse porte tem de sobra. Taça snifter ou tulipa pequena, servindo pouco por vez e deixando evoluir: a cada grau a mais aparece uma camada nova.</p>\n<h2>Harmoniza com</h2>\n<p>Sobremesas de chocolate amargo, brownie, doce de leite e sorvete de creme — vale fazer um float com uma bola dentro da taça. No salgado, encara carnes defumadas, barbecue e queijos azuis. E, com esse perfil de café, funciona muito bem sozinha, como digestivo depois do jantar.</p>"
+    },
+    "bff21-relax-into-the-wild": {
+      "slug": "bff21-relax-into-the-wild",
+      "kicker": "COLLAB · 2021",
+      "name": "RELAX INTO THE WILD",
+      "meta": "FRUITED GOSE · 4,5% ABV · 9 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-bff21-relax-into-the-wild.png.webp",
+      "imageAlt": "Página BFF21 - Relax Into the Wild — foto",
+      "description": "<p>Collab com a ZalaZ para o BFF21. Uma Gose fermentada com levedura Lager e finalizada com sal, limão-cravo e alecrim orgânico da fazenda. Pra desacelerar e se embrenhar no mato: herbal, cítrica e com aquele toque salino que pede natureza em volta.</p>",
+      "specs": "<p><strong>Collab:</strong> ZalaZ (BFF21)<br><strong>Extras:</strong> sal, limão-cravo e alecrim orgânico<br><strong>Fermentação:</strong> levedura Lager<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Fruited Gose parte de um estilo alemão antigo — cerveja de trigo levemente ácida e salgada — e acrescenta fruta e ervas por cima. O sal é o que faz a Gose ser tão gastronômica: ele realça o resto em vez de aparecer sozinho. Com 9 IBU não há amargor na conta, e os 4,5% ABV deixam o corpo bem leve. Aqui o limão-cravo e o alecrim puxam para o lado cítrico e herbal, e a fermentação com levedura Lager entrega um perfil mais limpo do que o de uma ale.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou taça de vinho branco. A taça segura o aroma herbal do alecrim, que se perde rápido em copo reto. Se sair muito gelada, espere um ou dois minutos: os aromas de erva só abrem com a temperatura subindo um pouco.</p>\n<h2>Harmoniza com</h2>\n<p>Pede comida leve e temperada com ervas: peixe grelhado, frango ao limão, batata assada com alecrim, saladas e queijos frescos. A acidez e o sal funcionam bem com frutos do mar e limpam o paladar de pratos gordurosos. E é uma boa cerveja de tarde ao ar livre, que é exatamente a proposta dela.</p>"
+    },
+    "argentatus": {
+      "slug": "argentatus",
+      "kicker": "RARE MONKEYS · 2021",
+      "name": "ARGENTATUS",
+      "meta": "BARREL-AGED WILD ALE · 4,5% ABV",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-argentatus.png.webp",
+      "imageAlt": "Página Argentatus — foto",
+      "description": "<p>No penúltimo rótulo da série Rare Monkeys, destacamos o sagui-branco (Mico argentatus), uma espécie da Amazônia, para ilustrar essa cerveja colaborativa com os nossos amigos da Cervejaria Dádiva! Um blend de dois barris de carvalho, usados previamente para maturar vinho branco e cachaça, com cervejas que repousaram por mais de um ano e que tiveram a adição de cajá e manga.</p>",
+      "specs": "<p><strong>Extras:</strong> cajá e manga, maturada em barril<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Barrel-Aged Wild Ale é cerveja de fermentação selvagem maturada em barril de madeira — um dos estilos mais complexos que existem, e também um dos mais demorados. A levedura selvagem e as bactérias trabalham devagar e produzem acidez e aromas que nenhuma fermentação convencional entrega. O barril acrescenta a sua parte: cada madeira devolve à cerveja o que guardou antes, e aqui foram barris de carvalho que já tinham maturado vinho branco e cachaça. Com 4,5% ABV, o corpo é leve, o que deixa a acidez e o cajá com a manga bem em primeiro plano.</p>\n<h2>Como servir</h2>\n<p>Entre 8 °C e 12 °C, em taça tulipa ou taça de vinho branco. Esse é um caso em que a cerveja gelada demais some: a complexidade que veio de mais de um ano de barril só aparece com a temperatura mais alta. Sirva pouco por vez e deixe evoluir na taça, como se faz com vinho.</p>\n<h2>Harmoniza com</h2>\n<p>Combina com comida que aguenta acidez: queijos maturados e de casca lavada, embutidos, peixes gordurosos, carnes de caça e pratos com molho agridoce. A acidez corta gordura como poucos estilos conseguem. E, pelo perfil vinoso, ela funciona muito bem em substituição ao vinho branco na mesa.</p>"
+    },
+    "chrysomelas": {
+      "slug": "chrysomelas",
+      "kicker": "RARE MONKEYS · 2021",
+      "name": "CHRYSOMELAS",
+      "meta": "KOMBUCHA SOUR · 4,5% ABV · 8 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-chrysomelas.png.webp",
+      "imageAlt": "Página Chrysomelas — foto",
+      "description": "<p>Neste quinto rótulo da série Rare Monkeys, destacamos o mico-leão-de-cara-dourada (Leontopithecus chrysomelas), uma espécie em perigo da Mata Atlântica baiana, para ilustrar essa Sour complexa e delicada, que leva cultura mista de Kombucha (SCOBY), infusão do chá Golden Monkey da província de Yunnan (um dos chás-preto mais cultuados e exclusivos do mundo), caju e gengibre.</p>\n<p>Os recursos vão para o Instituto Vida Livre, uma organização não-governamental que trabalha na reabilitação e soltura de animais em situação de risco no estado do Rio de Janeiro.</p>",
+      "specs": "<p><strong>Extras:</strong> SCOBY de kombucha, chá preto Yunnan Golden Monkey, cajú e gengibre<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Kombucha Sour é um híbrido raro: a acidez viva e o perfil de chá fermentado da kombucha encontrando a estrutura de uma cerveja sour. O resultado é leve, ácido e refrescante, com 4,5% ABV e apenas 8 IBU — amargor quase nulo, frescor no máximo. Um convite pra quem gosta de fermentados além da cerveja.</p>\n<h2>Como servir</h2>\n<p>Bem gelada, entre 3 °C e 5 °C, em taça de vinho branco ou copo longo. É bebida de frescor: sirva gelada e beba fresca, sem deixar esquentar demais na taça.</p>\n<h2>Harmoniza com</h2>\n<p>Saladas, poke, sushi, ceviche e pratos leves em geral. A acidez limpa o paladar como uma limonada faria — e por isso também funciona muito bem sozinha num dia quente.</p>"
+    },
+    "cupreus": {
+      "slug": "cupreus",
+      "kicker": "RARE MONKEYS · 2021",
+      "name": "CUPREUS",
+      "meta": "FRUITED GOSE IPA · 6,5% ABV · 15 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-cupreus.png.webp",
+      "imageAlt": "Página Cupreus — foto",
+      "description": "<p>No sexto rótulo da série Rare Monkeys, destacamos o macaco zogue-zogue (<em>Callicebus cupreus</em>), uma espécie da Amazônia, para ilustrar essa cerveja que salta por diferentes estilos. Uma base de IPA que foi acidificada, maturada com muita amora, um toque de baunilha e um dry hop generoso de Ekuanot. E para finalizar, uma pitada de flor de sal, criando uma cerveja única e que pode ser entendida como uma “Fruited Gose IPA” (?), mas só você bebendo mesmo para entender.</p>\n<p>5% dos recursos da venda foram para o Instituto Espaço Silvestre, uma ONG que trabalha na reabilitação e soltura de animais em situação de risco no estado de Santa Catarina.</p>",
+      "specs": "<p><strong>Extras:</strong> amoras, baunilha e flor de sal<br><strong>Lúpulos:</strong> Ekuanot (dry hop)<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Gose é a sour alemã com um toque de sal e coentro na receita — acidez láctica, leveza e um final salino que aguça o paladar. Na versão Fruited Gose IPA, entra fruta e uma carga extra de lúpulo por cima: os 15 IBU e os 6,5% ABV colocam a Cupreus num raro meio-termo entre sour, fruta e IPA.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça tulipa ou de vinho branco. O toque salino aparece mais na temperatura certa — gelada demais, a cerveja fica só ácida. Aprecie o aroma antes do primeiro gole.</p>\n<h2>Harmoniza com</h2>\n<p>O sal e a acidez fazem dela uma parceira natural de frutos do mar: ostras, ceviche, camarão. Também vai bem com saladas, queijos frescos e pratos levemente picantes.</p>"
+    },
+    "flavius": {
+      "slug": "flavius",
+      "kicker": "RARE MONKEYS · 2020",
+      "name": "FLAVIUS",
+      "meta": "HAZY IPA · 6,5% ABV",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-flavius.png.webp",
+      "imageAlt": "Página Flavius — foto",
+      "description": "<p>A Flavius é a terceira cerveja da série Rare Monkeys, uma New England IPA de tirar o fôlego e que homenageia o macaco-prego-dourado, espécie criticamente ameaçada do litoral nordestino. Sua receita traz variedades de lúpulo processadas em formas diferentes para trazer o máximo de aroma com o mais limpo amargor: CITRA (INCOGNITO), MOSAIC (LUPOMAX), SABRO (Pellets T-90), SIMCOE (CRYO HOPS) e FLEX.</p>\n<p>No aroma, notas intensas de frutas amarelas e tropicais, como melão, manga e maracujá. O sabor de lúpulo é igualmente intenso, resinoso, herbal e remetendo a frutas maduras, equilibrado por um agradável sabor maltado. Uma cerveja para se apreciar em goles longos e sem medo de ser feliz.</p>",
+      "specs": "<p><strong>Lúpulos:</strong> Citra, Mosaic, Sabro e Simcoe<br><strong>Lançamento:</strong> 2020</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Hazy IPA é a IPA turva da escola americana moderna: lúpulo aplicado tarde no processo, extraindo aroma de frutas tropicais sem carregar no amargor. O corpo macio e a aparência opaca fazem parte da receita. Com 6,5% ABV, a Flavius fica no ponto de equilíbrio do estilo — presença de álcool sem perder a leveza de beber.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa ou teku. Hazy é cerveja de aroma: beba fresca, recém-aberta, e não espere que fique cristalina — a turbidez é a assinatura do estilo.</p>\n<h2>Harmoniza com</h2>\n<p>Tacos, ceviche, frango grelhado, comida tailandesa e queijos cremosos. Pratos com manga ou maracujá espelham os aromas do lúpulo e elevam a experiência.</p>"
+    },
+    "guariba": {
+      "slug": "guariba",
+      "kicker": "RARE MONKEYS · 2021",
+      "name": "GUARIBA",
+      "meta": "BARLEYWINE · 9,5% ABV",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-guariba.png.webp",
+      "imageAlt": "Página Guariba — foto",
+      "description": "<p>No sétimo rótulo da série, destacamos o bugio-ruivo (Alouatta guariba), uma espécie da Amazônia, para ilustrar uma Barleywine feita apenas com maltes claros e que adquiriu cor através de uma fervura bem longa, caramelizando o mosto e adicionando complexidade. Além das notas de tosta e de castanhas do malte, adicionamos baunilha, canela e caramelo.</p>\n<p>Uma deliciosa combinação que nos remeteu a churros e que vai te surpreender. Os recursos da venda dessa cerveja vão para o ICAS – Instituto de Conservação de Animais Silvestres, que dá suporte a dois projetos que trabalham com espécies icônicas da nossa fauna: o tatu-canastra e o tamanduá-bandeira.</p>",
+      "specs": "<p><strong>Extras:</strong> baunilha, canela e caramelo<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Barleywine é um dos estilos mais antigos e potentes da tradição cervejeira: um vinho de cevada. Malte em primeiro plano — caramelo, toffee, frutas secas — com corpo cheio e final aquecido. Os 9,5% ABV da Guariba são típicos do estilo, que ainda evolui com o tempo: é das poucas cervejas que ganham complexidade guardadas.</p>\n<h2>Como servir</h2>\n<p>Entre 10 °C e 14 °C, em snifter ou taça de vinho pequena. É cerveja de contemplação: sirva pouco, gire a taça, acompanhe a evolução dos aromas conforme esquenta. Pressa é inimiga de um Barleywine.</p>\n<h2>Harmoniza com</h2>\n<p>Queijos maturados e azuis, frutas secas, nozes, caramelo e sobremesas de banana ou canela. Fecha uma refeição no papel que seria de um vinho do Porto.</p>"
+    },
+    "lagothrix": {
+      "slug": "lagothrix",
+      "kicker": "RARE MONKEYS · 2020",
+      "name": "LAGOTHRIX",
+      "meta": "IMPERIAL MILK STOUT · 10% ABV",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-lagothrix.png.webp",
+      "imageAlt": "Página Lagothrix — foto",
+      "description": "<p>Na segunda cerveja da série Rare Monkeys, seguimos com o macaco-barrigudo (Lagothrix lagotricha), uma espécie da Floresta Amazônica, para ilustrar essa Imperial Milk Stout parruda, com muuuita lactose e um blend de dois cafés da Fuzz Cafés: o potente Gorilon (Conilon Vitória) e o complexo e frutado José Luis (Catuaí 99).</p>\n<p>Esses cafés foram torrados e extraídos exclusivamente para essa cerveja, pelo inovador método de Warm brew. Muito café, com notas de cacau, rapadura e sutil baunilha em segundo plano. Uma cerveja para se degustar lentamente.</p>",
+      "specs": "<p><strong>Extras:</strong> café coado quente Fuzz Cafés (Conilon Vitória e Catuaí 99)<br><strong>Lançamento:</strong> 2020</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Imperial Milk Stout é a versão intensa da stout com lactose: o açúcar do leite não fermenta, deixando corpo aveludado e um dulçor que equilibra a torra. Com 10% ABV, a Lagothrix entra na categoria das cervejas grandes — preta, densa, com café e chocolate puxados do malte, feita pra beber sem pressa.</p>\n<h2>Como servir</h2>\n<p>Entre 10 °C e 12 °C, em snifter ou tulipa pequena. A regra das stouts grandes vale aqui: temperatura baixa demais esconde a complexidade. Deixe a taça esquentar aos poucos e note a mudança.</p>\n<h2>Harmoniza com</h2>\n<p>Chocolate amargo, tortas de café, doce de leite e queijos azuis. Com carne defumada ou barbecue, a torra conversa com a fumaça. E funciona como sobremesa em si.</p>"
+    },
+    "leontopithecus": {
+      "slug": "leontopithecus",
+      "kicker": "RARE MONKEYS · 2021",
+      "name": "LEONTOPITHECUS",
+      "meta": "IMPERIAL MILK STOUT · 11% ABV",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-leontopithecus.png.webp",
+      "imageAlt": "Página Leontopithecus — foto",
+      "description": "<p>Oitavo rótulo da série Rare Monkeys. Essa Imperial Milk Stout apresenta coloração preta e opaca, como uma boa Stout deve ser! Sua taça vai até ficar manchada por conta da quantidade absurda de purê de banana e de marshmallow adicionadas na maturação.</p>\n<p>Na boca, percebe-se de imediato o seu corpo incrivelmente denso e viscoso, com sabores de banana caramelizada, avelã e chocolate. Uma sobremesa líquida e licorosa, perfeita para adoçar o seu inverno. Pode conter sedimentos provenientes dos adjuntos utilizados. Fica a seu critério servi-los ou não.</p>",
+      "specs": "<p><strong>Extras:</strong> purê de banana, marshmallows e avelãs<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Imperial Milk Stout é a stout mais parruda com lactose na receita: o açúcar do leite não fermenta e deixa corpo sedoso e dulçor que abraça a torra do malte. Com 11% ABV, é cerveja de inverno e de sobremesa — café, chocolate e caramelo num líquido preto e opaco, denso o bastante pra manchar a taça.</p>\n<h2>Como servir</h2>\n<p>Entre 10 °C e 12 °C, em taça snifter. Gelada demais, vira só amargor de torra; na temperatura certa, abre camadas de chocolate e café. Sirva devagar e em porção menor — os 11% pedem respeito.</p>\n<h2>Harmoniza com</h2>\n<p>Sobremesas de chocolate, brownie, churros com doce de leite e sorvete de creme. No salgado, carnes defumadas e queijos azuis. Também fecha a noite sozinha, como um digestivo.</p>"
+    },
+    "saimiri": {
+      "slug": "saimiri",
+      "kicker": "RARE MONKEYS · 2021",
+      "name": "SAIMIRI",
+      "meta": "METHEGLIN MEAD · 13% ABV",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-saimiri.png.webp",
+      "imageAlt": "Página Saimiri — foto",
+      "description": "<p>No décimo e último rótulo da série Rare Monkeys, destacamos o macaco-esquilo (Saimiri sciureus), uma espécie da Amazônia, não para ilustrar uma cerveja, mas sim um hidromel! Produzido em parceria com os nossos amigos da OldPony, esse hidromel levou uma grande adição de amendoim, castanha de caju, amêndoa e noz pecã, que foram torradas, glaceadas no próprio mel e infusionadas na bebida, criando camadas complexas de aroma e sabor!</p>\n<p>Um toque final de canela compõe esse conjunto que remete àqueles kiosks típicos de castanhas caramelizadas.</p>",
+      "specs": "<p><strong>Extras:</strong> amendoim, castanha de caju, amêndoas, noz-pecã e canela<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Aqui não é cerveja: Metheglin é hidromel — fermentado de mel — temperado com especiarias, uma das bebidas mais antigas do mundo. Os 13% ABV colocam a Saimiri no território de um vinho encorpado: bebida de taça, de goles curtos e de ocasião. O mel fermentado seca e ganha complexidade, longe do dulçor simples que se imagina.</p>\n<h2>Como servir</h2>\n<p>Entre 8 °C e 12 °C, em taça de vinho ou snifter. Frio demais trava os aromas de mel e especiarias — deixe a taça evoluir. Aos 13% ABV, a pegada é de digestivo: sirva doses menores.</p>\n<h2>Harmoniza com</h2>\n<p>Queijos maturados e azuis, frutas secas, nozes e sobremesas de mel ou caramelo. Também fecha bem uma noite sozinho, no lugar de um vinho de sobremesa ou licor.</p>"
+    },
+    "sapajus": {
+      "slug": "sapajus",
+      "kicker": "RARE MONKEYS · 2020",
+      "name": "SAPAJUS",
+      "meta": "IMPERIAL PASTRY SOUR · 7,5% ABV · 5 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-sapajus.png.webp",
+      "imageAlt": "Página Sapajus — foto",
+      "description": "<p>Inauguramos a Rare Monkeys Collection com o macaco-prego-preto (Sapajus nigritus), uma espécie típica da Mata Atlântica do sudeste brasileiro. A Sapajus é uma Imperial Dark Pastry Sour com casca de cacau, coco queimado e extratos de baunilha e amêndoa.</p>\n<p>Escura, potente e muito complexa, leva ingredientes inusitados e vai desafiar a sua compreensão sobre cervejas ácidas. Os recursos vão para o Instituto Vida Livre, uma organização não-governamental que trabalha na reabilitação e soltura de animais em situação de risco no estado do Rio de Janeiro.</p>",
+      "specs": "<p><strong>Extras:</strong> cacau, coco tostado, amêndoas e baunilha<br><strong>Lançamento:</strong> 2020</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Imperial Pastry Sour é a sour levada ao extremo da sobremesa: acidez láctica de um lado, dulçor e corpo de outro, como um doce de fruta em versão líquida. Os 7,5% ABV dão estrutura de cerveja grande, e os 5 IBU praticamente zeram o amargor — o jogo aqui é entre o ácido e o doce.</p>\n<h2>Como servir</h2>\n<p>Entre 6 °C e 8 °C, em taça tulipa pequena ou taça de vinho. É cerveja de beber devagar, quase como sobremesa — porções menores valorizam a intensidade. Conforme esquenta, o lado pastry aparece mais.</p>\n<h2>Harmoniza com</h2>\n<p>Ela mesma já faz papel de sobremesa, mas acompanha bem cheesecake, tortas de fruta e sorvetes. No contraste, queijos azuis criam um jogo de doce, ácido e salgado que vale a experiência.</p>"
+    },
+    "moloch": {
+      "slug": "moloch",
+      "kicker": "RARE MONKEYS · 2021",
+      "name": "MOLOCH",
+      "meta": "FRUITED BERLINER WEISSE · 4% ABV",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-moloch.png.webp",
+      "imageAlt": "Página Moloch — foto",
+      "description": "<p>No quarto rótulo da série Rare Monkeys, destacamos o sauá-de-barriga-vermelha (Plecturocebus moloch), uma espécie nativa da Floresta Amazônica, para ilustrar essa Sour com muita amora, mirtilo, morango e framboesa! Uma base neutra, que foi acidificada na panela com lactobacilos por 3 dias, serviu de tela em branco para as frutas brilharem, adicionando muito sabor e uma cor vermelha intensa.</p>\n<p>Os recursos da venda vão para o Projeto Sauim de Coleira, uma ONG da Amazônia que tem como objetivo implementar pesquisas, monitoramento e ações de conservação do sauim-de-coleira (Saguinus bicolor).</p>",
+      "specs": "<p><strong>Extras:</strong> amora, mirtilo, morango e framboesa<br><strong>Lançamento:</strong> 2021</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Berliner Weisse é a sour alemã clássica: leve, ácida e de trigo, historicamente batizada de o champanhe do norte. Na versão fruited, a acidez láctica vira moldura pra fruta — aqui, amora, mirtilo e morango entram por cima da base de 4% ABV. Cerveja de acidez viva e corpo leve, quase um espumante de frutas vermelhas.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em taça de vinho branco ou tulipa. A taça aberta valoriza a cor das frutas vermelhas — metade do espetáculo é visual. A acidez fica mais elegante conforme a cerveja ganha um ou dois graus.</p>\n<h2>Harmoniza com</h2>\n<p>Sobremesas com frutas vermelhas, cheesecake, chocolate branco e queijos frescos. No salgado, corta bem a gordura de embutidos e pratos cremosos. Também funciona sozinha como aperitivo.</p>"
+    },
+    "paranoid": {
+      "slug": "paranoid",
+      "kicker": "HISTÓRICA · 2018",
+      "name": "PARANOID",
+      "meta": "IMPERIAL STOUT · 12% ABV · 33 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-paranoid.png.webp",
+      "imageAlt": "Página Paranoid — foto",
+      "description": "<p>Eu queria ser uma garrafa. Am I PARANOID? Acho que não. A verdade é que eu queria mesmo ser uma Imperial Stout porrada. A primeira da minha família. Diferentes camadas de sabor e complexidade em um corpo alto. Torrado, chocolate e caramelo. Cacau, avelã e nozes. Sabe o que mais? Eu sou isso tudo! E em lata! So… Why are you so PARANOID?</p>",
+      "specs": "<p><strong>Extras:</strong> chocolate 100%, avelãs e nozes<br><strong>Lançamento:</strong> 2018</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Imperial Stout é o extremo do lado escuro da cerveja: maltes torrados que trazem café, chocolate amargo e caramelo, num corpo denso e com final aquecido. Os 12% ABV colocam a Paranoid no território de destilado — cerveja de taça pequena e sessão longa. Os 33 IBU equilibram o dulçor do malte sem competir com ele. O chocolate 100%, as avelãs e as nozes reforçam justamente as notas que já vêm da torra.</p>\n<h2>Como servir</h2>\n<p>Entre 10 °C e 12 °C — sim, bem mais quente do que você imagina. Cerveja gelada demais esconde a complexidade que uma Imperial Stout tem de sobra. Taça snifter ou tulipa pequena, servindo pouco por vez: a cada grau a mais, uma camada nova aparece.</p>\n<h2>Harmoniza com</h2>\n<p>Sobremesas de chocolate amargo, brownie, doce de leite e sorvete de creme — vale o float com uma bola dentro da taça. No salgado, encara carnes defumadas, barbecue e queijos azuis. E funciona sozinha, como digestivo depois do jantar.</p>"
+    },
+    "wit-vezpa": {
+      "slug": "wit-vezpa",
+      "kicker": "HISTÓRICA · 2017",
+      "name": "WIT VEZPA",
+      "meta": "WITBIER · 5% ABV · 15 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-wit-vezpa.png.webp",
+      "imageAlt": "Página Wit Vezpa — foto",
+      "description": "<p>Uma cerveja carioca com a alma nova-iorquina e napolitana. Une a refrescância da Witbier com o sabor do manjericão e o toque cítrico da tangerina. Leve e aromática, desenvolvida especialmente para harmonizar com as pizzas da VEZPA. Quer uma pizza crocante e uma cerveja pra combinar? Tá na mão!</p>",
+      "specs": "<p><strong>Lançamento:</strong> 2017</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>Witbier é a cerveja de trigo belga: turva por natureza, leve, refrescante e temperada — tradicionalmente com coentro e casca de laranja. Nesta versão, manjericão e tangerina assumem o lugar do tempero clássico, aproximando a cerveja da cozinha italiana. Com 5% ABV e 15 IBU, é das cervejas mais fáceis de beber que existem: baixo amargor, corpo leve e alta drinkability. Uma boa porta de entrada para quem está descobrindo cerveja artesanal.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em copo weizen ou taça alta. Se a garrafa tiver sedimento no fundo, o que é normal em witbier, gire delicadamente antes de servir para incorporá-lo — é ele que dá o aspecto turvo e parte do sabor característico.</p>\n<h2>Harmoniza com</h2>\n<p>Foi desenvolvida para pizza, e é ali que ela brilha — especialmente as de molho de tomate, muçarela de búfala e manjericão, onde o manjericão da cerveja conversa direto com o da pizza. Também vai bem com frutos do mar, saladas, peixes leves e queijos frescos.</p>"
+    },
+    "cool-lager": {
+      "slug": "cool-lager",
+      "kicker": "HISTÓRICA · 2017",
+      "name": "COOL LAGER",
+      "meta": "AMERICAN LAGER · 5% ABV · 14 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-cool-lager.png.webp",
+      "imageAlt": "Página Cool Lager — foto",
+      "description": "<p>Assim deve ser uma Lager! Linda, livre, leve e solta. E com um objetivo: ser uma cerveja pra momentos mais leves do seu dia, da sua semana, da sua vida. Mas vamos lá, pode ser suave mas nunca sem personalidade. Lúpulos tradicionais dão lugar à modernidade. Origem tcheca, mas com um toque de inovação. Dry Hopping sutil.</p>\n<p>Isso é cool! Por isso a Three Monkeys Cool Lager tem uma simplicidade paradoxal. Alta drinkability contrastando com carga de lúpulo na medida certa. De origem Neozelandesa, o Motueka é um lúpulo versátil perfeito pra dar equilíbrio, trazendo também tons vivos de limão, lima e notas de frutas tropicais. Isso sim é refrescância. Be cool, babe!</p>",
+      "specs": "<p><strong>Lúpulos:</strong> Saaz e Motueka<br><strong>Lançamento:</strong> 2017</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>American Lager é o estilo mais democrático da cerveja: clara, límpida, leve e de fermentação lager, que entrega um perfil limpo, sem frutado de levedura. Os 14 IBU deixam só um toque de amargor pra equilibrar, e os 5% ABV mantêm a cerveja no território da drinkability total — feita pra descer fácil.</p>\n<h2>Como servir</h2>\n<p>Bem gelada, entre 2 °C e 4 °C, em copo pilsner ou caldereta. É cerveja de geladeira pronta: quanto mais fria, mais refrescante — e aqui não há aromas complexos que o frio esconda.</p>\n<h2>Harmoniza com</h2>\n<p>Onipresente à mesa: churrasco, petiscos de boteco, pizza, hambúrguer, comida de praia. É a cerveja que acompanha sem disputar atenção com a comida — e talvez por isso nunca saia de moda.</p>"
+    },
+    "wit-ipa": {
+      "slug": "wit-ipa",
+      "kicker": "HISTÓRICA · 2015",
+      "name": "WIT IPA",
+      "meta": "WHITE IPA · 7% ABV · 40 IBU",
+      "image": "https://threemonkeysbeer.com/wp-content/uploads/2026/07/pagina-lin-wit-ipa.png.webp",
+      "imageAlt": "Página Wit IPA — foto",
+      "description": "<p>A Three Monkeys Wit IPA traz o melhor de dois estilos bem distintos. A refrescância de uma Belgian Wit e a potência lupulada de uma American IPA. Possui aromas frutados cítricos provenientes do lúpulo e da casca de laranja.</p>\n<p>Uma incrível espuma branca, cremosa e persistente coroa esse encontro entre a tradição da escola belga e a criatividade americana, resultando em uma cerveja leve, refrescante, mas de personalidade.</p>",
+      "specs": "<p><strong>Extras:</strong> casca de laranja, dry hop de Citra<br><strong>Lançamento:</strong> 2015</p>",
+      "buttons": [],
+      "extra": "<h2>Sobre o estilo</h2>\n<p>White IPA é o encontro de dois mundos: a base leve e turva de uma Belgian Wit, feita com trigo, com a carga de lúpulo de uma American IPA. O resultado tem o frescor cítrico de uma e o aroma e amargor da outra — os 40 IBU aparecem, mas o trigo arredonda. Com 7% ABV, é mais encorpada do que o visual claro sugere.</p>\n<h2>Como servir</h2>\n<p>Entre 4 °C e 6 °C, em copo weizen ou taça tulipa. A turbidez é característica do trigo — não é defeito. Servida muito gelada, esconde os aromas de especiaria da levedura belga; vale deixar respirar um minuto.</p>\n<h2>Harmoniza com</h2>\n<p>Vai bem com frutos do mar, peixes grelhados, saladas cítricas e queijos de casca branca tipo brie. O lado IPA dá conta de pratos mais temperados; o lado Wit refresca entre um garfo e outro.</p>\n<h2>Premiações</h2>\n<ul class=\"tmb-premios\">\n<li>2016 — Medalha de Ouro no Mondial de La Bière</li>\n</ul>\n<p class=\"tmb-nota-nome\">A Wit IPA nasceu com o nome de <strong>India White Ale</strong> — foi com ele que ela levou o ouro no Mondial de La Bière de 2016, o primeiro prêmio internacional da Three Monkeys.</p>"
+    }
+  }
+}

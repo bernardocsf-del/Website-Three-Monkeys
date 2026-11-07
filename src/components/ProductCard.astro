@@ -1,0 +1,73 @@
+---
+import Icon from './Icon.astro';
+import { type Product, splitName, money, sealFor, discount, addToCartUrl, semSP } from '../lib/site';
+interface Props { product: Product; large?: boolean; }
+const { product: p, large = false } = Astro.props;
+const { name, format } = splitName(p.name);
+const seal = sealFor(p.slug);
+const off = discount(p);
+const img = p.images[0];
+---
+<article class:list={['card', { large }]} data-product={p.id} data-sem-sp={semSP.includes(p.id) ? '' : undefined}>
+  <div class="thumb">
+    <a href={`/produto/${p.slug}/`} tabindex="-1" aria-hidden="true">
+      {img && <img src={img.src} srcset={img.srcset} sizes={large ? '(max-width: 767px) 80vw, 400px' : '(max-width: 767px) 60vw, 260px'} alt={img.alt} loading="lazy" width="1600" height="1969" />}
+    </a>
+    {seal && <img class="seal" src={seal} alt="" aria-hidden="true" loading="lazy" width="80" height="80" />}
+    {off > 0 && <span class="badge">-{off}%</span>}
+    {!p.inStock && <span class="badge out">Volto já!</span>}
+    {p.inStock && p.purchasable && (
+      <a class="quick" href={addToCartUrl(p.id)} rel="nofollow" aria-label={`Adicionar ${p.name} ao carrinho`}><Icon name="cart" size={18} /></a>
+    )}
+  </div>
+  <h3 class="title"><a href={`/produto/${p.slug}/`}><span class="name">{name}</span>{format && <span class="format">{format}</span>}</a></h3>
+  {p.reviews > 0 && p.rating > 0 && (
+    <div class="stars" aria-label={`Nota ${p.rating} de 5`}>
+      {[1, 2, 3, 4, 5].map((i) => <span class:list={{ on: i <= Math.round(p.rating) }}><Icon name="star" size={13} /></span>)}
+    </div>
+  )}
+  <div class="price">
+    {off > 0 && <del>{money(p.regularPrice)}</del>}
+    <strong>{money(p.price)}</strong>
+  </div>
+  {p.unitPrice && <div class="unit">{p.unitPrice}</div>}
+</article>
+
+<style>
+  .card { position: relative; min-width: 0; }
+  .card.is-hidden { display: none; }
+  .thumb { position: relative; margin-bottom: 16px; }
+  .thumb > a img { width: 100%; aspect-ratio: 1600 / 1969; object-fit: contain; transition: transform .3s; }
+  .card:hover .thumb > a img { transform: translateY(-6px); }
+  .seal { position: absolute; left: 0; top: 4px; width: 80px; height: 80px; pointer-events: none; }
+  .badge {
+    position: absolute; left: 0; top: 4px; min-width: 50px; height: 50px; border-radius: 50px; padding: 0 8px;
+    background: var(--gold-strong); color: var(--white); font-size: 13px; font-weight: 700;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .seal ~ .badge { top: 90px; }
+  .badge.out { background: var(--gold); color: #1a1a1a; height: auto; padding: 7px 13px; font-size: 11px; letter-spacing: .08em; text-transform: uppercase; }
+  .quick {
+    position: absolute; right: 0; top: 0; width: 40px; height: 40px; background: var(--white); color: #222;
+    display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity .2s;
+  }
+  .card:hover .quick, .quick:focus-visible { opacity: 1; }
+  .quick:hover { background: var(--gold); color: var(--white); }
+  .title { margin: 0 0 6px; }
+  .title a { color: var(--white); }
+  .name { display: block; font-size: 16px; font-weight: 800; line-height: 1.15; letter-spacing: -.01em; text-transform: uppercase; margin-bottom: 5px; }
+  .format { display: block; font-size: 10px; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); }
+  .stars { display: flex; gap: 1px; color: #555; margin-bottom: 4px; }
+  .stars .on { color: #eabe12; }
+  .price { color: var(--gold); font-size: 17px; font-weight: 600; display: flex; gap: 6px; align-items: baseline; flex-wrap: wrap; }
+  .price del { color: var(--muted); font-size: 15px; font-weight: 400; }
+  .unit { color: var(--muted); font-size: 12px; font-weight: 600; }
+  .large .name { font-size: 18px; }
+  @media (max-width: 768px) {
+    .name { font-size: 14px; }
+    .format { font-size: 9px; }
+    .seal { width: 60px; height: 60px; }
+    .seal ~ .badge { top: 66px; }
+    .quick { opacity: 1; }
+  }
+</style>

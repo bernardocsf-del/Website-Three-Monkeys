@@ -1,0 +1,46 @@
+---
+// Seletor "Onde você quer receber?" — mesma regra do site antigo:
+// produtos marcados como sem entrega em SP somem da vitrine quando a região é SP.
+---
+<div class="region" data-region-bar>
+  <span class="lbl">Onde você quer receber?</span>
+  <button type="button" class="opt" data-reg="RJ">Rio de Janeiro</button>
+  <button type="button" class="opt" data-reg="SP">São Paulo</button>
+  <span class="nota">Escolha a região para ver o que entregamos aí.</span>
+</div>
+
+<script>
+  import { getRegion, setRegion, applyRegion } from '../lib/region';
+  const bar = document.querySelector<HTMLElement>('[data-region-bar]');
+  const render = () => {
+    const r = getRegion();
+    bar?.querySelectorAll<HTMLButtonElement>('.opt').forEach((b) => b.classList.toggle('on', b.dataset.reg === r));
+    const nota = bar?.querySelector('.nota');
+    if (nota) {
+      nota.textContent =
+        r === 'SP' ? 'Mostrando o que entregamos em São Paulo.'
+        : r === 'RJ' ? 'Mostrando tudo que entregamos no Rio de Janeiro.'
+        : 'Escolha a região para ver o que entregamos aí.';
+    }
+    applyRegion();
+  };
+  bar?.addEventListener('click', (e) => {
+    const b = (e.target as HTMLElement).closest<HTMLButtonElement>('.opt');
+    if (b?.dataset.reg) { setRegion(b.dataset.reg); render(); }
+  });
+  render();
+</script>
+
+<style>
+  .region {
+    display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 14px;
+    border: 1px solid var(--line); background: rgba(255, 255, 255, .02); padding: 16px; margin: 0 15px 30px;
+  }
+  .lbl { color: var(--white); font-size: 14px; font-weight: 500; }
+  .opt {
+    background: transparent; border: 1.5px solid var(--gold); color: var(--gold); cursor: pointer;
+    padding: 9px 18px; font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+  }
+  .opt:hover, .opt.on { background: var(--gold); color: var(--bg-deep); }
+  .nota { flex-basis: 100%; text-align: center; color: var(--muted); font-size: 12px; }
+</style>

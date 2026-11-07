@@ -1,0 +1,55 @@
+---
+import { IMG } from '../lib/site';
+---
+<div id="age-gate" class="age-gate" role="dialog" aria-modal="true" aria-labelledby="age-q" hidden>
+  <div class="box">
+    <img src={IMG.logo} alt="" width="150" height="141" />
+    <p id="age-q">Você tem 18 anos ou mais?</p>
+    <div class="actions">
+      <button type="button" class="btn btn-gold" data-age="yes">Tenho 18 anos ou mais</button>
+      <button type="button" class="btn btn-light" data-age="no">Tenho menos de 18 anos</button>
+    </div>
+    <p class="denied" hidden>Desculpe, o conteúdo deste site é destinado apenas a maiores de 18 anos.</p>
+  </div>
+</div>
+
+<script is:inline>
+  (function () {
+    var KEY = 'tmb_age_ok';
+    var ok = false;
+    try { ok = localStorage.getItem(KEY) === '1'; } catch (e) {}
+    if (!ok && document.cookie.indexOf(KEY + '=1') > -1) ok = true;
+    if (ok) return;
+    var gate = document.getElementById('age-gate');
+    if (!gate) return;
+    gate.hidden = false;
+    document.documentElement.style.overflow = 'hidden';
+    gate.addEventListener('click', function (e) {
+      var b = e.target.closest('[data-age]');
+      if (!b) return;
+      if (b.getAttribute('data-age') === 'yes') {
+        try { localStorage.setItem(KEY, '1'); } catch (e) {}
+        document.cookie = KEY + '=1;path=/;max-age=' + 60 * 60 * 24 * 30;
+        gate.hidden = true;
+        document.documentElement.style.overflow = '';
+      } else {
+        gate.querySelector('.denied').hidden = false;
+      }
+    });
+  })();
+</script>
+
+<style>
+  .age-gate {
+    position: fixed; inset: 0; z-index: 200; display: flex; align-items: center; justify-content: center;
+    background: rgba(0, 0, 0, .55); padding: 16px; backdrop-filter: blur(2px);
+  }
+  .age-gate[hidden] { display: none; }
+  .box { background: #262626; width: min(600px, 100%); padding: 40px 30px; text-align: center; }
+  .box img { width: 150px; margin: 0 auto 16px; border-radius: 50%; }
+  .box p { color: var(--white); font-size: 15px; }
+  .actions { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  .btn-light { background: var(--white); color: #222; border-color: var(--white); }
+  .btn-light:hover { background: #ddd; border-color: #ddd; }
+  .denied { margin-top: 18px; color: var(--gold) !important; }
+</style>

@@ -1,0 +1,109 @@
+/* Three Monkeys Beer — estilos globais
+   Paleta e tipografia replicadas do site WordPress (tema WoodMart customizado). */
+
+:root {
+  --bg: #212121;
+  --bg-deep: #161616;
+  --bg-black: #0b0b0b;
+  --surface: #2b2b2b;
+  --gold: #bba154;
+  --gold-strong: #a68e4d;
+  --gold-dark: #65562a;
+  --text: #e2e2e2;
+  --text-soft: #bdbdbd;
+  --muted: #9a9a9a;
+  --white: #fff;
+  --line: rgba(255, 255, 255, 0.14);
+  --font: 'Montserrat', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --container: 1222px;
+  --gutter: 16px;
+  --header-h: 140px;
+  color-scheme: dark;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; scroll-behavior: smooth; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+img, video { max-width: 100%; height: auto; display: block; }
+a { color: var(--gold); text-decoration: none; transition: color .2s, background .2s, border-color .2s; }
+a:hover { color: var(--white); }
+h1, h2, h3, h4, h5, h6 { color: var(--white); font-family: var(--font); line-height: 1.2; margin: 0 0 .6em; font-weight: 700; }
+p { margin: 0 0 1.1em; }
+button { font-family: inherit; }
+
+.container { width: 100%; max-width: var(--container); margin: 0 auto; padding: 0 var(--gutter); }
+.container-wide { width: 100%; max-width: 1600px; margin: 0 auto; padding: 0 var(--gutter); }
+.section { padding: 60px 0; }
+.section-deep { background: var(--bg-deep); }
+.center { text-align: center; }
+.visually-hidden { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- Botões ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  font-family: var(--font); font-weight: 600; font-size: 13px; letter-spacing: .04em;
+  text-transform: uppercase; line-height: 1.2; padding: 12px 22px; cursor: pointer;
+  border: 2px solid transparent; border-radius: 0; text-align: center;
+}
+.btn-gold { background: var(--gold-strong); color: var(--white); border-color: var(--gold-strong); }
+.btn-gold:hover { background: var(--gold); border-color: var(--gold); color: var(--bg-deep); }
+.btn-outline { background: transparent; color: var(--gold); border-color: var(--gold); }
+.btn-outline:hover { background: var(--gold); color: var(--bg-deep); }
+.btn-dark { background: var(--gold-dark); color: var(--white); border-color: var(--gold-dark); font-size: 12px; padding: 10px 18px; }
+.btn-dark:hover { background: var(--gold); border-color: var(--gold); color: var(--bg-deep); }
+.btn-lg { font-size: 15px; padding: 14px 30px; }
+.btn-link { color: var(--muted); font-size: 11px; letter-spacing: .08em; text-transform: uppercase; border-bottom: 1px solid currentColor; padding-bottom: 2px; }
+.btn-link:hover { color: var(--gold); }
+
+/* Caixa dourada de título de seção (ex.: "NOSSAS CERVEJAS", "LOJA") */
+.title-box {
+  display: block; width: min(100%, 580px); margin: 0 auto; padding: 14px 20px;
+  border: 2px solid var(--gold); color: var(--gold); text-align: center;
+  font-size: clamp(16px, 2vw, 22px); font-weight: 700; letter-spacing: .02em; text-transform: uppercase;
+}
+a.title-box:hover { background: var(--gold); color: var(--bg-deep); }
+.title-box img { display: inline-block; vertical-align: middle; margin-right: 10px; }
+
+/* Rótulo pequeno espaçado em dourado ("MEMBERCHIMP CLUB", "LINHA FIXA · DESDE 2017") */
+.kicker { color: var(--gold); font-size: 13px; font-weight: 500; letter-spacing: .32em; text-transform: uppercase; margin: 0 0 10px; }
+
+/* Texto longo vindo do WordPress */
+.prose { color: var(--text); font-size: 15px; line-height: 1.75; }
+.prose h2 { font-size: 22px; margin-top: 1.6em; }
+.prose h3 { font-size: 18px; margin-top: 1.4em; }
+.prose a { color: var(--gold); text-decoration: underline; }
+.prose ul, .prose ol { padding-left: 1.3em; margin: 0 0 1.1em; }
+.prose li { margin-bottom: .35em; }
+.prose table { width: 100%; border-collapse: collapse; margin: 1em 0 1.6em; font-size: 14px; }
+.prose th, .prose td { border: 1px solid var(--line); padding: 8px 12px; text-align: left; }
+.prose th { color: var(--white); background: rgba(255, 255, 255, .05); }
+.prose figure { margin: 0; overflow-x: auto; }
+.prose img { margin: 1em auto; }
+.prose strong { color: var(--white); }
+
+/* Carrossel horizontal com rolagem por arraste/scroll-snap */
+.rail {
+  display: grid; grid-auto-flow: column; gap: 20px; overflow-x: auto; scroll-snap-type: x mandatory;
+  padding-bottom: 14px; scrollbar-width: thin; scrollbar-color: var(--gold) transparent;
+  overscroll-behavior-x: contain;
+}
+.rail > * { scroll-snap-align: start; }
+.rail::-webkit-scrollbar { height: 6px; }
+.rail::-webkit-scrollbar-thumb { background: var(--gold); border-radius: 3px; }
+.rail::-webkit-scrollbar-track { background: rgba(255, 255, 255, .08); }
+
+.page-pad { padding-top: calc(var(--header-h) + 40px); }
+
+@media (max-width: 767px) {
+  :root { --header-h: 92px; }
+  .section { padding: 40px 0; }
+}

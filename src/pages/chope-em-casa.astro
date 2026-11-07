@@ -1,0 +1,101 @@
+---
+import Base from '../layouts/Base.astro';
+import Icon from '../components/Icon.astro';
+import PromoTiles from '../components/PromoTiles.astro';
+import InstagramFeed from '../components/InstagramFeed.astro';
+import { LINKS } from '../lib/site';
+
+const U = 'https://threemonkeysbeer.com/wp-content/uploads';
+const chopes = [
+  'Easy Pilsen (American Lager / 5% ABV / 8 IBU) – 30 ou 50 litros',
+  'Classic IPA Summer (Session IPA / 3,3% ABV / 23 IBU) – 20 ou 50 litros',
+  'Golden Ale (Strong Golden Ale / 7,5% ABV / 30 IBU) – 30 ou 50 litros',
+];
+const itens = ['Barril (20, 30 ou 50L)', 'Chopeira (a gelo ou elétrica)', 'Copos descartáveis', 'Todo o equipamento necessário'];
+---
+<Base>
+  <section class="hero" style={`background-image:url(${U}/2025/09/banner-three-monkey-evento-01.jpg)`}></section>
+
+  <section class="section">
+    <div class="container two">
+      <div class="txt">
+        <h1>Leve seu evento para outro nível com os chopes da Three Monkeys Beer!</h1>
+        <p>O delivery de chope da Three Monkeys sai direto do tanque para o seu evento!</p>
+        <p>Chope fresco e gelado no seu churrasco, festa ou evento corporativo.</p>
+        <p>Entregamos e instalamos tudo para você só abrir a torneira!</p>
+        <a class="btn btn-gold" href={LINKS.whatsapp} target="_blank" rel="noopener"><Icon name="whatsapp" size={16} /> Entrar em contato pelo WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <h2 class="head"><img src={`${U}/2025/09/beer-three-monkey-50x60.png`} alt="" width="50" height="60" /> Como funciona?</h2>
+      <p class="strong">Comece escolhendo seu chope preferido:</p>
+      {chopes.map((c) => <p class="strong">{c}</p>)}
+      <div class="barris">
+        {[1, 2, 3].map((n) => <img src={`${U}/2026/06/Barris-TM-0${n}.png.webp`} alt="Barril de chope Three Monkeys" loading="lazy" />)}
+      </div>
+      <p class="center">Ficou na dúvida? Entra em contato que podemos te ajudar na melhor escolha para o seu evento!</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container narrow">
+      <h2 class="head"><img src={`${U}/2025/09/delivery-three-monkey-70x50.png`} alt="" width="70" height="50" /> Nós levamos e instalamos pra você</h2>
+      <ul class="checks">
+        {itens.map((i) => <li><Icon name="check" size={18} /> {i}</li>)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container two center">
+      <div>
+        <h2 class="head"><Icon name="pin" size={40} /> Áreas atendidas</h2>
+        <p>Pedido mínimo: 20 litros.</p>
+        <p>Frete grátis para a maioria dos bairros do Rio de Janeiro. Frete sob consulta para bairros de Niterói.</p>
+      </div>
+      <div>
+        <h2 class="head"><Icon name="clock" size={40} /> Horário de entrega</h2>
+        <p>Posso escolher o horário de entrega? SIM! Recomendamos agendar com 7 dias de antecedência. Para eventos maiores, 15 dias de antecedência.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section center">
+    <div class="container narrow">
+      <h2 class="head">E se tiver algum problema?</h2>
+      <p class="upper">É só ligar. A Three Monkeys vai até você para fazer do seu evento um sucesso.</p>
+      <a class="btn btn-gold" href={LINKS.whatsapp} target="_blank" rel="noopener"><Icon name="whatsapp" size={16} /> Entrar em contato pelo WhatsApp</a>
+    </div>
+  </section>
+
+  <PromoTiles only="sobre" />
+  <InstagramFeed />
+</Base>
+
+<style>
+  .hero { height: min(660px, 50vw); min-height: 380px; background: #2b2010 center / cover no-repeat; position: relative; }
+  .hero::after { content: ''; position: absolute; inset: auto 0 0; height: 40%; background: linear-gradient(transparent, var(--bg)); }
+  .two { display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: start; }
+  .txt h1 { font-size: clamp(26px, 3vw, 40px); font-weight: 400; line-height: 1.1; margin-bottom: 30px; }
+  .txt p { color: var(--white); font-size: 15px; line-height: 1.75; }
+  .txt .btn { margin: 20px 0 0 70px; }
+  .head { display: flex; align-items: center; justify-content: center; gap: 12px; color: var(--gold); font-size: 22px; text-transform: uppercase; margin-bottom: 30px; }
+  .head img { display: inline-block; }
+  .strong { color: var(--white); font-weight: 700; font-size: 18px; margin-bottom: 10px; }
+  .barris { display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; max-width: 900px; margin: 30px auto; }
+  .center p { color: var(--white); }
+  p.center { color: var(--white); font-size: 15px; }
+  .narrow { max-width: 620px; }
+  .checks { list-style: none; padding: 0; margin: 0 auto; width: fit-content; }
+  .checks li { display: flex; gap: 10px; align-items: center; color: var(--white); font-size: 16px; font-weight: 600; margin-bottom: 14px; }
+  .checks :global(svg) { color: var(--gold); }
+  .upper { text-transform: uppercase; margin-bottom: 30px; }
+  @media (max-width: 767px) {
+    .two { grid-template-columns: 1fr; gap: 30px; }
+    .txt .btn { margin-left: 0; }
+    .barris { grid-template-columns: 1fr; max-width: 260px; }
+  }
+</style>
